@@ -3,6 +3,12 @@
 .pub/
 build/
 packages
+.packages
+.project
+*.iml
+*.ipr
+*.iws
+.idea/
 
 # Or the files created by dart2js.
 *.dart.js
