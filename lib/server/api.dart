@@ -53,6 +53,14 @@ class SpeakersResource {
     _speakers.remove(speaker);
     return null;
   }
+
+  @ApiMethod(path: 'speakers/{id}')
+  Speaker getSpeaker(String id) {
+    return _speakers
+        .where((speaker) => speaker.id == int.parse(id))
+        .toList()
+        .first;
+  }
 }
 
 class SessionsResource {
@@ -115,5 +123,13 @@ class SessionsResource {
         .first;
     _sessions.remove(session);
     return null;
+  }
+
+  @ApiMethod(path: 'sessions/{id}')
+  Session getSession(String id) {
+    return _sessions
+    .where((session) => session.id == int.parse(id))
+    .toList()
+    .first;
   }
 }
