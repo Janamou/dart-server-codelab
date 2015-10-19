@@ -1,37 +1,49 @@
 library devfest_model;
 
-class Talk {
+class Session {
   int id;
-  String name;
-  double duration;
+  String title;
+  String description;
+  String language;
+  String complexity;
+  List<Speaker> speakers = [];
+  List<String> tags;
 
-  Talk();
+  Session();
 
-  Talk.fromJson(Map map) {
-    name = map["name"];
-    duration = map["duration"];
+  Session.fromJson(Map map) {
+    id = map["id"];
+    title = map["title"];
+    description = map["description"];
+    language = map["language"];
+    complexity = map["complexity"];
+    tags = map["tags"];
+    map["speakers"].forEach((Map speaker) {
+      speakers.add(new Speaker.fromJson(speaker));
+    });
   }
 
-  Map toJson() => {"name": name, "duration": duration};
-
-  String toString() => "name: $name, duration: $duration";
+  String toString() => "title: $title,\n description: $description";
 }
 
 class Speaker {
   int id;
-  String firstName;
-  String lastName;
+  String name;
+  String title;
+  String company;
+  String country;
   String bio;
 
   Speaker();
 
   Speaker.fromJson(Map map) {
-    firstName = map["firstName"];
-    lastName = map["lastName"];
+    id = map["id"];
+    name = map["name"];
+    title = map["title"];
+    company = map["company"];
+    country = map["country"];
     bio = map["bio"];
   }
 
-  Map toJson() => {"firstName": firstName, "lastName": lastName};
-
-  String toString() => "firstName: $firstName, lastName: $lastName";
+  String toString() => "name: $name,\n bio: $bio";
 }
