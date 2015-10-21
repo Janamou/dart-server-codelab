@@ -18,9 +18,11 @@ class Session {
     language = map["language"];
     complexity = map["complexity"];
     tags = map["tags"];
-    map["speakers"].forEach((Map speaker) {
-      speakers.add(new Speaker.fromJson(speaker));
-    });
+    if (map.containsKey("speakers")) {
+      map["speakers"].forEach((Map speaker) {
+        speakers.add(new Speaker.fromJson(speaker));
+      });
+    }
   }
 
   String toString() => "title: $title,\n description: $description";

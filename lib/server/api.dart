@@ -2,6 +2,7 @@ library devfest_server_api;
 
 import 'package:rpc/rpc.dart';
 import 'package:devfest_dart_code_lab/model/model.dart';
+import 'package:devfest_dart_code_lab/utils/json_loaders.dart';
 
 @ApiClass(version: 'v1')
 class DevFestApi {
@@ -13,24 +14,13 @@ class DevFestApi {
 }
 
 class SpeakersResource {
-  final List _speakers = [
-    new Speaker()
-      ..id = 1
-      ..name = "Jana Moudrá"
-      ..title = "Co-Founder"
-      ..company = "Juicymo"
-      ..country = "Czech Republic"
-      ..bio =
-          "GDE (Google Developer Expert) for Dart. Jana is a passionate developer and modern web and mobile technology evangelist. She is an event organiser for GDG Prague, where she arranges events for developers including public lectures, code labs and hackathons – covering a wide range of subjects including technologies Dart or Android. She loves to help other developers and spread the knowledge about these technologies. <br/><br/>Jana co-founded a company called Juicymo, where she works on juicy apps and products.",
-    new Speaker()
-      ..id = 2
-      ..name = "Jakub Škvára"
-      ..title = "Frontend engineer"
-      ..company = "Shipito"
-      ..country = "Czech Republic"
-      ..bio =
-          "Jakub is a member of GDG Prague and GDG ČVUT in Czech republic. He organised together with Jana Moudrá several Polymer and Dart code labs and a hackaton. He works as a frontend engineer for Shipito. Jakub is interested in modern Javascript frameworks, libraries and tools and loves clean code."
-  ];
+  List _speakers;
+
+  // We are not having database and we need to provide some data to the API.
+  // So we will load data from our prepared JSON file into a memory;
+  SpeakersResource() {
+    _speakers = loadSpeakersFromJson();
+  }
 
   @ApiMethod(path: 'speakers')
   List<Speaker> getSpeakers() => _speakers;
@@ -64,44 +54,11 @@ class SpeakersResource {
 }
 
 class SessionsResource {
-  final List _sessions = [
-    new Session()
-      ..id = 1
-      ..title = "Let's play Dart!"
-      ..description =
-          "Dart is a language for the web by Google which is object oriented with optional types. You can use Dart to build great apps for the client-side, server-side and command line. <br/><br/>Come to listen to my story why I love Dart and why it makes me so much productive!"
-      ..speakers = [
-        new Speaker()
-          ..id = 1
-          ..name = "Jana Moudrá"
-          ..title = "Co-Founder"
-          ..company = "Juicymo"
-          ..country = "Czech Republic"
-          ..bio =
-              "GDE (Google Developer Expert) for Dart. Jana is a passionate developer and modern web and mobile technology evangelist. She is an event organiser for GDG Prague, where she arranges events for developers including public lectures, code labs and hackathons – covering a wide range of subjects including technologies Dart or Android. She loves to help other developers and spread the knowledge about these technologies. <br/><br/>Jana co-founded a company called Juicymo, where she works on juicy apps and products.",
-      ]
-      ..language = "en"
-      ..complexity = "Intermediate"
-      ..tags = ["Web", "Dart"],
-    new Session()
-      ..id = 2
-      ..title = "Polymer vs other libraries"
-      ..description =
-          "Most modern front-end JavaScript libraries provide support for component based development. Components help separate large applications into standalone building blocks with specified communication API. Let's compare Polymer elements with components from React, Angular."
-      ..speakers = [
-        new Speaker()
-          ..id = 2
-          ..name = "Jakub Škvára"
-          ..title = "Frontend engineer"
-          ..company = "Shipito"
-          ..country = "Czech Republic"
-          ..bio =
-              "Jakub is a member of GDG Prague and GDG ČVUT in Czech republic. He organised together with Jana Moudrá several Polymer and Dart code labs and a hackaton. He works as a frontend engineer for Shipito. Jakub is interested in modern Javascript frameworks, libraries and tools and loves clean code."
-      ]
-      ..language = "en"
-      ..complexity = "Intermediate"
-      ..tags = ["Web", "Polymer"]
-  ];
+  List _sessions;
+
+  SessionsResource() {
+    _sessions = loadSessionsFromJson();
+  }
 
   @ApiMethod(path: 'sessions')
   List<Session> getSessions() => _sessions;
