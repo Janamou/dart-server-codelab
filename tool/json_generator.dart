@@ -2,21 +2,19 @@ library json_generator;
 
 import 'dart:io';
 import 'dart:convert';
-import 'package:path/path.dart' as path;
 
 const String SOURCE_SESSIONS_FILE_NAME = "sessions-source.json";
 const String SOURCE_SPEAKERS_FILE_NAME = "speakers-source.json";
 const String SESSIONS_FILE_NAME = "sessions.json";
 const String SPEAKERS_FILE_NAME = "speakers.json";
-const String FOLDER_NAME = "../lib";
 
-String getPath(String fileName) =>
-    Platform.script.resolve(fileName).toFilePath();
+Uri getPath(String fileName) =>
+    Platform.script.resolve(fileName);
 
 /// Generator generates updated json files which are then loaded by server.
 main() async {
-  File sessionsFile = new File(getPath(SOURCE_SESSIONS_FILE_NAME));
-  File speakersFile = new File(getPath(SOURCE_SPEAKERS_FILE_NAME));
+  File sessionsFile = new File.fromUri(getPath(SOURCE_SESSIONS_FILE_NAME));
+  File speakersFile = new File.fromUri(getPath(SOURCE_SPEAKERS_FILE_NAME));
 
   if (sessionsFile.existsSync() && speakersFile.existsSync()) {
     String sessionsContent = await sessionsFile.readAsString();
@@ -75,11 +73,11 @@ main() async {
     });
 
     File sessionsOutput =
-        new File(getPath(path.join(FOLDER_NAME, SESSIONS_FILE_NAME)));
+        new File.fromUri(getPath("../lib/$SESSIONS_FILE_NAME"));
     sessionsOutput.writeAsStringSync(JSON.encode(sessions));
 
     File speakersOutput =
-        new File(getPath(path.join(FOLDER_NAME, SPEAKERS_FILE_NAME)));
+        new File.fromUri(getPath("../lib/$SPEAKERS_FILE_NAME"));
     speakersOutput.writeAsStringSync(JSON.encode(speakers));
   } else {
     //TODO some error
