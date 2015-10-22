@@ -1,35 +1,41 @@
 library json_loaders;
 
 import 'dart:convert';
-import 'dart:async';
 import 'dart:io';
-import 'package:path/path.dart' as path;
 import 'package:devfest_dart_code_lab/model/model.dart';
 
-Uri getPath(String fileName) =>
-    Platform.script.resolve(fileName);
+const String sessionsFileName = "sessions.json";
+const String speakersFileName = "speakers.json";
 
-List loadSpeakersFromJson() => _loadFromJson("speakers.json", "speaker");
+/// Returns Uri to [fileName] relative to the running script.
+Uri getPath(String fileName) => Platform.script.resolve(fileName);
 
-List loadSessionsFromJson() => _loadFromJson("sessions.json", "session");
+/// Returns [List] of speakers from a JSON file.
+List loadSpeakersFromJson() => _loadFromJson(speakersFileName);
 
-List _loadFromJson(String fileName, String type) {
+/// Returns [List] of sessions from a JSON file.
+List loadSessionsFromJson() => _loadFromJson(sessionsFileName);
+
+/// Returns List of converted objects from JSON provided by file of [fileName].
+List _loadFromJson(String fileName) {
   List objects = [];
   File file = new File.fromUri(getPath("../lib/$fileName"));
+
   if (file.existsSync()) {
     List elements = JSON.decode(file.readAsStringSync());
+
+    Object object;
     elements.forEach((Map element) {
-      if (type == "speaker") {
-        Speaker speaker = new Speaker.fromJson(element);
-        objects.add(speaker);
-      } else if (type == "session") {
-        Session session = new Session.fromJson(element);
-        objects.add(session);
+      if (fileName == speakersFileName) {
+        object = new Speaker.fromJson(element);
+      } else if (fileName == sessionsFileName) {
+        object = new Session.fromJson(element);
       }
+
+      objects.add(object);
     });
   } else {
-    //TODO zemri
+    print("ERROR: .json files don't exist!");
   }
-
   return objects;
 }
