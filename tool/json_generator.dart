@@ -38,7 +38,7 @@ main() async {
 /// Updates speakers JSON - removes unneeded properties.
 ///
 /// New file is saved into a lib/ folder.
-_updateSpeakers(List speakers) async {
+void _updateSpeakers(List speakers) {
   speakers.forEach((Map speaker) {
     if (speaker.containsKey("featured")) {
       speaker.remove("featured");
@@ -61,15 +61,14 @@ _updateSpeakers(List speakers) async {
     }
   });
 
-  File output = new File.fromUri(getPath("../lib/$speakersFileName"));
-  await output.writeAsString(JSON.encode(speakers));
+  _saveJson(speakersFileName, speakers);
 }
 
 /// Updates sessions JSON - removes unneeded properties and updates some.
 /// Sessions JSON now contains also [speakers].
 ///
 /// New file is saved into a lib/ folder.
-_updateSessions(List sessions, List speakers) async {
+void _updateSessions(List sessions, List speakers) {
   sessions.forEach((Map session) {
     if (session.containsKey("presentation")) {
       session.remove("presentation");
@@ -100,6 +99,11 @@ _updateSessions(List sessions, List speakers) async {
     }
   });
 
-  File output = new File.fromUri(getPath("../lib/$sessionsFileName"));
-  await output.writeAsString(JSON.encode(sessions));
+  _saveJson(sessionsFileName, sessions);
+}
+
+/// Saves List of [items] as a JSON into file.
+_saveJson(String fileName, List items) async {
+  File output = new File.fromUri(getPath("../lib/$fileName"));
+  await output.writeAsString(JSON.encode(items));
 }
