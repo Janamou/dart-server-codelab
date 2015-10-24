@@ -1,4 +1,4 @@
-library devfest_server_api;
+library devfest_dart_code_lab.devfest_server_api;
 
 import 'package:rpc/rpc.dart';
 import 'package:devfest_dart_code_lab/model/model.dart';
@@ -6,6 +6,9 @@ import 'package:devfest_dart_code_lab/utils/json_loaders.dart';
 
 @ApiClass(version: 'v1')
 class DevFestApi {
+
+  DevFestApi();
+
   @ApiResource()
   SpeakersResource speakersResource = new SpeakersResource();
 

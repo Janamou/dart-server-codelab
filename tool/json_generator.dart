@@ -3,9 +3,9 @@ library json_generator;
 import 'dart:io';
 import 'dart:convert';
 
-/// This script takes two source JSON files for sessions and speakers and
-/// generates new JSON files with updated structure which are then used
-/// by server.
+/// This script takes two source JSON files for sessions and speakers downloaded
+/// from the DevFest website and generates new JSON files with updated structure
+/// which are then used by server.
 
 const String sourceSessionsFileName = "sessions-source.json";
 const String sourceSpeakersFileName = "speakers-source.json";

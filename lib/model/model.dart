@@ -1,4 +1,26 @@
-library devfest_model;
+library devfest_dart_code_lab.devfest_model;
+
+class Speaker {
+  int id;
+  String name;
+  String title;
+  String company;
+  String country;
+  String bio;
+
+  Speaker();
+
+  Speaker.fromJson(Map map) {
+    id = map["id"];
+    name = map["name"];
+    title = map["title"];
+    company = map["company"];
+    country = map["country"];
+    bio = map["bio"];
+  }
+
+  String toString() => "name: $name,\n bio: $bio";
+}
 
 class Session {
   int id;
@@ -26,26 +48,4 @@ class Session {
   }
 
   String toString() => "title: $title,\n description: $description";
-}
-
-class Speaker {
-  int id;
-  String name;
-  String title;
-  String company;
-  String country;
-  String bio;
-
-  Speaker();
-
-  Speaker.fromJson(Map map) {
-    id = map["id"];
-    name = map["name"];
-    title = map["title"];
-    company = map["company"];
-    country = map["country"];
-    bio = map["bio"];
-  }
-
-  String toString() => "name: $name,\n bio: $bio";
 }

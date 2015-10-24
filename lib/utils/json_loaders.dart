@@ -1,4 +1,4 @@
-library json_loaders;
+library devfest_dart_code_lab.json_loaders;
 
 import 'dart:convert';
 import 'dart:io';
