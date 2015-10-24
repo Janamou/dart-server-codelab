@@ -531,9 +531,9 @@ Stop current server and run it again.
 
 ## Resources
 
-* [Dartlang website](www.dartlang.org)
+* [Dartlang website](http://www.dartlang.org)
 * [Dart news](http://news.dartlang.org/)
 * [pubspec.yaml info](https://www.dartlang.org/tools/pub/pubspec.html)
 * [Dart on server](https://www.dartlang.org/server/)
 * [rpc library](https://pub.dartlang.org/packages/rpc)
-* [Dartisans community on G+](g.co/dartisans)
+* [Dartisans community on G+](http://g.co/dartisans)
