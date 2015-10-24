@@ -501,6 +501,7 @@ class SessionsResource {
   //other contents of the class
 }
 ```
+Stop current server and run it again.
 
 ## Resources
 
