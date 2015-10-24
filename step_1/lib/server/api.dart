@@ -1,7 +1,7 @@
 library devfest_dart_code_lab.devfest_api;
 
 import 'package:rpc/rpc.dart';
-import 'package:devfest_dart_code_lab/model/model.dart';
+import '../model/model.dart';
 
 @ApiClass(version: 'v1')
 class DevFestApi {

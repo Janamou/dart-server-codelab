@@ -2,7 +2,7 @@ library devfest_dart_code_lab.json_loaders;
 
 import 'dart:convert';
 import 'dart:io';
-import 'package:devfest_dart_code_lab/model/model.dart';
+import '../model/model.dart';
 
 const String sessionsFileName = "sessions.json";
 const String speakersFileName = "speakers.json";

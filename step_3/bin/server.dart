@@ -3,7 +3,7 @@ library devfest_server;
 import 'dart:io';
 import 'package:logging/logging.dart';
 import 'package:rpc/rpc.dart';
-import 'package:devfest_dart_code_lab/server/api.dart';
+import '../lib/server/api.dart';
 
 final ApiServer apiServer = new ApiServer(prettyPrint: true);
 

@@ -1,6 +1,6 @@
 library devfest_dart_code_lab.static_data;
 
-import 'package:devfest_dart_code_lab/model/model.dart';
+import '../model/model.dart';
 
 final List<Speaker> speakers = [
   new Speaker()
