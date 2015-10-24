@@ -335,7 +335,7 @@ We fill them in the next step.
 Also notice the name `devFestApi` in the url. Why is it there? Our API class is named `DevFestApi`, so the API name is named according to this 
 class in the camelCase style. But it is also possible to provide different name to the API class throught the `@ApiClass` annotation.
 
-## Step 4 - Fill lists with data
+## Step 3 - Fill lists with data
 We are not using any database in this code lab so we need to provide the data in the code and load them into our lists
 after resource creation.
 
@@ -416,9 +416,24 @@ class SessionsResource {
 }
 ```
 
-Stop current server and run it again.
+Stop current server and run it again. You should be able to see two speakers and two sesions.
 
-## Step 3 - Test the API
+Warning: If you see "Failed to create server socket" error, previous process might still be using port 8080. 
+Use one of the following commands in the command line.
+
+Mac or Linux:
+```bash
+lsof -i :8080
+```
+
+Windows:
+```bash
+netstat -ano
+```
+
+and then kill the process.
+
+## Step 4 - Test the API
 
 Now we need to test that our API works. We have methods on paths:
 * GET localhost:8080/devFestApi/v1/speakers
@@ -464,16 +479,15 @@ With the `POST` request we need to also send the data in a format of JSON.
 
 For Mac/Linux:
 ```bash
-curl -H "Content-Type: application/json" -X POST -d '{"id":100,"name":"The test speaker"}' http://localhost:8080/devFestApi/v1/speakers
-
-curl -H "Content-Type: application/json" -X POST -d '{"id":500,"title":"The test session"}' http://localhost:8080/devFestApi/v1/sessions
+curl -H "Content-Type: application/json" -X "POST" -d '{"id":100,"name":"The test speaker"}' http://localhost:8080/devFestApi/v1/speakers
+curl -H "Content-Type: application/json" -X "POST" -d '{"id":500,"title":"The test session"}' http://localhost:8080/devFestApi/v1/sessions
 ```
 
 For Windows:
 ```bash
-curl -H "Content-Type: application/json" -X POST -d "{\"id\":100,\"name\":\"The test speaker\"}" http://localhost:8080/devFestApi/v1/speakers
+curl -H "Content-Type: application/json" -X "POST" -d "{\"id\":100,\"name\":\"The test speaker\"}" http://localhost:8080/devFestApi/v1/speakers
 
-curl -H "Content-Type: application/json" -X POST -d "{\"id\":500,\"title\":\"The test session\"}" http://localhost:8080/devFestApi/v1/sessions
+curl -H "Content-Type: application/json" -X "POST" -d "{\"id\":500,\"title\":\"The test session\"}" http://localhost:8080/devFestApi/v1/sessions
 ```
 
 ## Step 4 - Fill lists with data from JSON
