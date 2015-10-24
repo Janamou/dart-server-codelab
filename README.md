@@ -191,7 +191,7 @@ For the other methods than `GET`, the `method` has to be also specified in the a
 Our API methods work with the model so we need to import it:
 
 ```dart
-import 'package:devfest_dart_code_lab/model/model.dart';
+import '../model/model.dart';
 ```
 
 Note that we provide model classes directly as a parameters/return types of the method - we don't need to use JSON because rpc library
@@ -307,7 +307,7 @@ library devfest_server;
 import 'dart:io';
 import 'package:logging/logging.dart';
 import 'package:rpc/rpc.dart';
-import 'package:devfest_dart_code_lab/server/api.dart';
+import '../lib/server/api.dart';
 
 final ApiServer apiServer = new ApiServer(prettyPrint: true);
 
@@ -389,7 +389,7 @@ Now we need to initialize our lists in `DevFestApi` class.
 First we add an import into a `DevFestApi` class to `lib/utils/static_data.dart`. 
 
 ```dart
-import 'package:devfest_dart_code_lab/utils/static_data.dart';
+import '../utils/static_data.dart';
 ```
 
 We set the values of lists in constructors of the resource classes.
@@ -502,7 +502,7 @@ and generates a List of objects (`Speaker` and `Session`) for them using the `.t
 And then we need to add an import to our `DevFestApi` class:
 
 ```dart
-import 'package:devfest_dart_code_lab/utils/json_loaders.dart';
+import '../utils/json_loaders.dart';
 ```
 And use it in our resource constructors:
 
