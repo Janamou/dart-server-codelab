@@ -11,7 +11,7 @@ Download the prepared project from [Github](https://github.com/Janamou/dart-serv
 Project is divided into steps according to this Code Lab. Try to run the application from **step_04/** and see how it works.
 
 ## Step 1 - Let's prepare our API
-TODO we will start in folder
+We start with the folder `step_0_start`.
 
 First explore the **pubspec.yaml** file in the project. All important metadata for project are present and the dependencies for rpc library are present:
 
