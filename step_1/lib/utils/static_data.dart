@@ -2,7 +2,7 @@ library devfest_dart_code_lab.static_data;
 
 import 'package:devfest_dart_code_lab/model/model.dart';
 
-List<Speaker> speakers = [
+final List<Speaker> speakers = [
   new Speaker()
     ..id = 14
     ..name = "Jana Moudrá"
@@ -21,7 +21,7 @@ List<Speaker> speakers = [
         "Jakub is a member of GDG Prague and GDG ČVUT in Czech republic. He organised together with Jana Moudrá several Polymer and Dart code labs and a hackaton. He works as a frontend engineer for Shipito. Jakub is interested in modern Javascript frameworks, libraries and tools and loves clean code."
 ];
 
-List<Session> sessions = [
+final List<Session> sessions = [
   new Session()
     ..id = 115
     ..title = "Let's play Dart!"

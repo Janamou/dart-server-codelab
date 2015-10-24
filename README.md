@@ -486,11 +486,10 @@ curl -H "Content-Type: application/json" -X "POST" -d '{"id":500,"title":"The te
 For Windows:
 ```bash
 curl -H "Content-Type: application/json" -X "POST" -d "{\"id\":100,\"name\":\"The test speaker\"}" http://localhost:8080/devFestApi/v1/speakers
-
 curl -H "Content-Type: application/json" -X "POST" -d "{\"id\":500,\"title\":\"The test session\"}" http://localhost:8080/devFestApi/v1/sessions
 ```
 
-## Step 4 - Fill lists with data from JSON
+## Step 5 - Fill lists with data from JSON
 Previous steps used the static data from lists in a `lib/utils/static_data.dart`. We don't use database in this code lab but we want to have still more
 then two items in our resources. 
 
@@ -500,7 +499,7 @@ website and fill the lists with these data (original JSON had unnecessary tags f
 This functionality is already implemented in `lib/utils/json_loaders.dart`. Take a look at the code. Code parses the JSON files for speakers and sessions
 and generates a List of objects (`Speaker` and `Session`) for them using the `.toJson()` constructor for every object.
 
-And then we need to add in import to our `DevFestApi` class:
+And then we need to add an import to our `DevFestApi` class:
 
 ```dart
 import 'package:devfest_dart_code_lab/utils/json_loaders.dart';

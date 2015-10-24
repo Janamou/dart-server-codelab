@@ -2,13 +2,10 @@ library devfest_dart_code_lab.devfest_api;
 
 import 'package:rpc/rpc.dart';
 import 'package:devfest_dart_code_lab/model/model.dart';
-import 'package:devfest_dart_code_lab/utils/json_loaders.dart';
+import 'package:devfest_dart_code_lab/utils/static_data.dart';
 
 @ApiClass(version: 'v1')
 class DevFestApi {
-
-  DevFestApi();
-
   @ApiResource()
   SpeakersResource speakersResource = new SpeakersResource();
 
@@ -19,10 +16,8 @@ class DevFestApi {
 class SpeakersResource {
   List _speakers;
 
-  // We are not having database and we need to provide some data to the API.
-  // So we will load data from our prepared JSON file into a memory;
   SpeakersResource() {
-    _speakers = loadSpeakersFromJson();
+    _speakers = speakers;
   }
 
   @ApiMethod(path: 'speakers')
@@ -40,9 +35,9 @@ class SpeakersResource {
   @ApiMethod(path: 'speakers/{id}', method: 'DELETE')
   VoidMessage deleteSpeaker(String id) {
     Speaker speaker = _speakers
-        .where((speaker) => speaker.id == int.parse(id))
-        .toList()
-        .first;
+    .where((speaker) => speaker.id == int.parse(id))
+    .toList()
+    .first;
     _speakers.remove(speaker);
     return null;
   }
@@ -50,9 +45,9 @@ class SpeakersResource {
   @ApiMethod(path: 'speakers/{id}')
   Speaker getSpeaker(String id) {
     return _speakers
-        .where((speaker) => speaker.id == int.parse(id))
-        .toList()
-        .first;
+    .where((speaker) => speaker.id == int.parse(id))
+    .toList()
+    .first;
   }
 }
 
@@ -60,7 +55,7 @@ class SessionsResource {
   List _sessions;
 
   SessionsResource() {
-    _sessions = loadSessionsFromJson();
+    _sessions = sessions;
   }
 
   @ApiMethod(path: 'sessions')
@@ -78,9 +73,9 @@ class SessionsResource {
   @ApiMethod(path: 'sessions/{id}', method: 'DELETE')
   VoidMessage deleteSession(String id) {
     Session session = _sessions
-        .where((session) => session.id == int.parse(id))
-        .toList()
-        .first;
+    .where((session) => session.id == int.parse(id))
+    .toList()
+    .first;
     _sessions.remove(session);
     return null;
   }

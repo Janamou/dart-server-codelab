@@ -2,6 +2,8 @@ library devfest_dart_code_lab.devfest_api;
 
 import 'package:rpc/rpc.dart';
 import 'package:devfest_dart_code_lab/model/model.dart';
+import 'package:devfest_dart_code_lab/utils/static_data.dart';
+import 'package:devfest_dart_code_lab/utils/json_loaders.dart';
 
 @ApiClass(version: 'v1')
 class DevFestApi {
@@ -16,7 +18,7 @@ class SpeakersResource {
   List _speakers;
 
   SpeakersResource() {
-    _speakers = [];
+    _speakers = loadSpeakersFromJson();
   }
 
   @ApiMethod(path: 'speakers')
@@ -54,7 +56,7 @@ class SessionsResource {
   List _sessions;
 
   SessionsResource() {
-    _sessions = [];
+    _sessions = loadSessionsFromJson();
   }
 
   @ApiMethod(path: 'sessions')
