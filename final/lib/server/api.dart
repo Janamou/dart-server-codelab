@@ -1,4 +1,4 @@
-library devfest_dart_code_lab.devfest_server_api;
+library devfest_dart_code_lab.devfest_api;
 
 import 'package:rpc/rpc.dart';
 import 'package:devfest_dart_code_lab/model/model.dart';

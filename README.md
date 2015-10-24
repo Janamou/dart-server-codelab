@@ -1,9 +1,8 @@
 # Dart server-side Code Lab
 The goal of this code lab is to create a server side API with Dart using the [rpc](https://pub.dartlang.org/packages/rpc) package. 
-We create a simple API with list of **sessions** and *speakers* from DevFest Ukraine 2015.
+We create a simple API with list of **sessions** and **speakers** from DevFest Ukraine 2015.
 
 You will learn:
-
 * how to write applications in Dart
 * how to work on server-side with Dart's rpc package
 * how to use logger
@@ -31,6 +30,8 @@ Run `pub get` in the project folder.
 We will write a class for our Dart API. We will name this class `DevFestApi` and store it into the file `lib/server/api.dart`.
 
 ```dart
+library devfest_dart_code_lab.devfest_api;
+
 class DevFestApi {
   // here will be contents of the class.
 }
@@ -41,10 +42,16 @@ We use library **rpc** which is a library for creating RESTful server-side Dart 
 To be able to use it, we need to import it:
 
 ```dart
+library devfest_dart_code_lab.devfest_api;
+
 import 'package:rpc/rpc.dart';
+
+class DevFestApi {
+  // here will be contents of the class.
+}
 ```
 
-We need to provide annotation `ApiClass` to our `DevFestApi` class to be able to say that it will wrap our API.
+We need to provide annotation `@ApiClass` to our `DevFestApi` class to be able to say that it wraps our API.
 It is required to provide a `version` of the API.
 
 ```dart
@@ -55,10 +62,16 @@ class DevFestApi {
 ```
 ### Resource classes
 
-Our API will provide list of all speakers and sessions. These lists are contained in resource classes.
-We create two resource classes - `SpeakersResource` class and `SessionsResource` class. 
+Our API provides list of all speakers and sessions. These lists are contained in resource classes.
+We create two resource classes - `SpeakersResource` class and `SessionsResource` class in the `api.dart`. 
 
 ```dart
+
+@ApiClass(version: 'v1')
+class DevFestApi {
+  // here will be contents of the class.
+}
+
 class SpeakersResource {
   List _speakers;
 
@@ -71,9 +84,9 @@ class SessionsResource {
   List _sessions;
 
   SessionsResource() {
-    _sessions = [];
-  
-}
+    _sessions = [];  
+  }
+}  
 ```
 
 These classes are instantiated in our `DevFestApi` class and the annotation `@ApiResource` needs to be provided to them.
@@ -93,18 +106,18 @@ class DevFestApi {
 To be able to return list of all speakers and sessions, model classes need to be implemented.
 See the `lib/model/model.dart` file for the implementation. 
 
-Class `Speaker` and `Session` are both having its attributes, default constructor and one named constructor
+Class `Speaker` and `Session` both have its attributes, default constructor and one named constructor
 `Speaker.fromJson()` and `Session.fromJson()`. This constructor will be later used for creating new `Speaker` and `Session` object from
 provided JSON - JSON is converted to `Map` and this Map is used in our named constructors to fill the attributes with values from
 it.
 
-Finally the `toString()` method is implemented in both classes to get nice `String` representation of every
+Finally the `toString()` method is implemented in both classes to get the nice `String` representation of every
 object.
 
-Notice how a `List` of Speakers is generated in `Session.fromJson()` constructor. For every speaker in session, the `Speaker` object
+Notice how a `List` of speakers is generated in `Session.fromJson()` constructor. For every speaker in session, the `Speaker` object
 is created and added to the List of speakers `List<Speaker>`.
 
-Also note that List (or Maps) in model classes need to be **typed** or the rpc library will fail to parse the API.
+Also note that `List` (or `Map`) in model classes needs to be **typed** or the rpc library will fail to parse the API.
 
 ```dart
 class Speaker {
@@ -172,7 +185,7 @@ We define methods:
 All API methods have to have the `@ApiMethod` annotation to be able to be provided by the API. 
 We need to specify the `path` which is used for this method in the annotation. 
 Path supports also parameters (as you can see in `getSpeaker()` method).
-For the other methods than `GET`, the method has to be also specified in the annotation 
+For the other methods than `GET`, the `method` has to be also specified in the annotation 
 (in our example it is `POST` and `DELETE`).
 
 Our API methods work with the model so we need to import it:
