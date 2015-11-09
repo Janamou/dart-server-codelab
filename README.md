@@ -94,6 +94,9 @@ These classes are instantiated in our `DevFestApi` class and the annotation `@Ap
 ```dart
 @ApiClass(version: 'v1')
 class DevFestApi {
+
+  DevFestApi();
+
   @ApiResource()
   SpeakersResource speakersResource = new SpeakersResource();
 

@@ -7,6 +7,9 @@ import '../utils/json_loaders.dart';
 
 @ApiClass(version: 'v1')
 class DevFestApi {
+
+  DevFestApi();
+
   @ApiResource()
   SpeakersResource speakersResource = new SpeakersResource();
 
