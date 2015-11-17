@@ -1,6 +1,6 @@
 # Dart server-side Code Lab
 The goal of this code lab is to create a server side API with Dart using the [rpc](https://pub.dartlang.org/packages/rpc) package. 
-We create a simple API with list of **sessions** and **speakers** from DevFest Ukraine 2015.
+We create a simple API with list of **sessions** and **speakers** from DevFest Silicon Valley 2015.
 
 You will learn:
 * how to write applications in Dart

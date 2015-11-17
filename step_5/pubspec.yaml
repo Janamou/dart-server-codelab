@@ -1,7 +1,7 @@
 name: devfest_dart_code_lab
 version: 0.1.0
 author: Jana Moudra <jana.moudra@gmail.com>
-description: Dart server side code lab for DevFest Ukraine 2015.
+description: Dart server side code lab for DevFest Silicon Valley 2015.
 environment:
   sdk: '>=1.9.0 <2.0.0'
 dependencies:
