@@ -8,7 +8,8 @@ You will learn:
 * how to use logger
 
 Download the prepared project from [Github](https://github.com/Janamou/dart-server-codelab) and open it in editor. We prepared everything important for you.
-Project is divided into steps according to this Code Lab. Try to run the application from **step_5/** and see how it works.
+Project is divided into steps according to this Code Lab. Try to run the application from **step_5/** and see how it works. 
+To be able to run it, you need to call `pub get` in the project folder.
 
 ## Step 1 - Let's prepare our API
 We start with the folder `step_0_start`.
