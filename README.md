@@ -8,8 +8,10 @@ You will learn:
 * how to use logger
 
 Download the prepared project from [Github](https://github.com/Janamou/dart-server-codelab) and open it in editor. We prepared everything important for you.
-Project is divided into steps according to this Code Lab. Try to run the application from **step_5/** and see how it works. 
-To be able to run it, you need to call `pub get` in the project folder.
+Project is divided into steps according to this Code Lab. 
+
+Try to run the application from **step_5/** and see how it works. 
+To be able to run it, you need to call `pub get` in the step_5 project folder.
 
 ## Step 1 - Let's prepare our API
 We start with the folder `step_0_start`.
@@ -28,7 +30,7 @@ dependencies:
 Run `pub get` in the project folder.
 
 ### DevFestApi class
-We will write a class for our Dart API. We will name this class `DevFestApi` and store it into the file `lib/server/api.dart`.
+We write a class for our Dart API. We name this class `DevFestApi` and store it into the file `lib/server/api.dart`.
 
 ```dart
 library devfest_dart_code_lab.devfest_api;
@@ -38,7 +40,7 @@ class DevFestApi {
 }
 ```
 
-We use library **rpc** which is a library for creating RESTful server-side Dart APIs from the Dart team.
+We use library [rpc](https://pub.dartlang.org/packages/rpc) which is a library for creating RESTful server-side Dart APIs from the Dart team.
 
 To be able to use it, we need to import it:
 
@@ -539,5 +541,6 @@ Stop current server and run it again.
 * [Dart news](http://news.dartlang.org/)
 * [pubspec.yaml info](https://www.dartlang.org/tools/pub/pubspec.html)
 * [Dart on server](https://www.dartlang.org/server/)
+* [All Dart libraries on pub](https://pub.dartlang.org)
 * [rpc library](https://pub.dartlang.org/packages/rpc)
 * [Dartisans community on G+](http://g.co/dartisans)
