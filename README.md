@@ -11,7 +11,7 @@ Download the prepared project from [Github](https://github.com/Janamou/dart-serv
 Project is divided into steps according to this Code Lab. 
 
 Try to run the application from **step_5/** and see how it works. 
-To be able to run it, you need to call `pub get` in the step_5 project folder.
+To be able to run it, you need to call `pub get` in the step_5 project folder. Then run the script **bin/server.dart**.
 
 ## Step 1 - Let's prepare our API
 We start with the folder `step_0_start`.
