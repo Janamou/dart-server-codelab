@@ -1,657 +1,844 @@
-[
-    {
-        "id": 1,
-        "name": "Macy Kuang",
-        "title": "Founder",
-        "company": "Miaomiao Games",
-        "country": "Canada",
-        "photoUrl": "../../images/people/macy_kuang.jpg",
-        "bio": "Macy is the founder of Miaomiao Games, GDE for Wearables, host at Code to Create and organizer for AndroidTO conference. She is passionate about gaming and IOT.",
-        "tags": [
-            "Google Cardboard"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Android Wear / GlassGoogle Developer Expert",
-                "link": "https://developers.google.com/experts/people/macy-kuang"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+MacyKuang"
-            },
-            {
-                "name": "Website",
-                "link": "http://macykuang.com/"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/macykuang"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/MacyKuang"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Graham Polley",
-        "title": "Senior Software Engineer",
-        "company": "Shine Technologies",
-        "country": "Australia",
-        "photoUrl": "../../images/people/graham_polley.jpg",
-        "bio": "Graham is a senior software engineer based out of Melbourne Australia. He's passionate about promoting the adoption of cloud technologies into software development, and regularly blogs and gives presentations. Graham has extensive experience in building big data solutions for clients using the Google technology stack, and in particular with BigQuery & Dataflow. Graham works very closely with the GCP engineering team in the US, where he is a member of their cloud platform trusted tester program, and the solutions he helps build are used as internal exemplars of developer use cases. Graham is also a GDE on the GCP.",
-        "tags": [
-            "Google Cloud Platform"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+GrahamPolley"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/polleyg"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Pablo Caif",
-        "title": "Software engineer",
-        "company": "Shine Technologies",
-        "country": "Australia",
-        "photoUrl": "../../images/people/pablo_caif.jpg",
-        "bio": "Pablo is a passionate software engineer who enjoys solving complex problems, and devising simple solutions. He works at Shine Technologies and he is part of a team that uses BigQuery and Dataflow to solve challenging and complex data processing business requirements. Pablo considers that scalability and performance are paramount to developing a great solution, and that is why he has been using Dataflow and BigQuery to bring these solutions to reality.",
-        "tags": [
-            "Google Cloud Platform"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+PabloCaif"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Konrad Dzwinel",
-        "title": "Senior Front-End Developer",
-        "company": "Brainly",
-        "country": "Poland",
-        "photoUrl": "../../images/people/konrad_dzwinel.jpg",
-        "bio": "Konrad is a front-end developer at Brainly, Google Developer Expert for Web Technologies and co-organizer of Google Developers Group in Krakow, Poland. Over the years he worked for various startups, consultancies and software houses building websites, hybrid apps and internal tools. After work, he develops Chrome extensions, experiments with various front-end technologies, gives presentations and runs workshops.",
-        "tags": [
-            "Chrome"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Chrome Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/konrad-dzwinel"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+KonradDzwinel"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/kdzwinel"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/kdzwinel/"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Jana Moudrá",
-        "title": "Co-Founder",
-        "company": "Juicymo",
-        "country": "Czech Republic",
-        "photoUrl": "../../images/people/jana_moudra.jpg",
-        "bio": "GDE (Google Developer Expert) for Dart. Jana is a passionate developer and modern web and mobile technology evangelist. She is an event organiser for GDG Prague, where she arranges events for developers including public lectures, code labs and hackathons – covering a wide range of subjects including technologies Dart or Android. She loves to help other developers and spread the knowledge about these technologies. <br/><br/>Jana co-founded a company called Juicymo, where she works on juicy apps and products and teaches at Unicorn College.",
-        "tags": [
-            "Chrome"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Dart Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/jana-moudr"
-            },
-            {
-                "name": "GDG",
-                "description": "Google Developers Group Prague",
-                "link": "https://developers.google.com/groups/chapter/111919016509847766513/"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+JanaMoudrá"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://cz.linkedin.com/in/janamoudra"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/Janamou"
-            },
-            {
-                "name": "Blog",
-                "link": "http://www.moudra.net/"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Doris Chen",
-        "title": "Senior Technology Evangelist",
-        "company": "Microsoft",
-        "country": "USA",
-        "photoUrl": "../../images/people/doris_chen.jpg",
-        "bio": "Dr. Doris Chen is a Senior Technology Evangelist at Microsoft for the Western region of the United States, specialized in web technologies (HTML5, jQuery, JavaScript, Ajax, and Java). Doris has over 18 years of experience in the software industry working in several open source web tier technologies, Java platform, .NET and distributed computing technologies. She has developed and delivered over 400 keynotes, technical sessions, and trainings worldwide. She speaks at numerous international conferences and user groups including O’Reilly OSCON, Fluent, Dev Nexus, HTML5 Dev Conference, WebVisions,  JavaOne, SD Forum, and worldwide User Groups. Doris works very closely to create and foster the open source community around Java, NetBeans, Glassfish, and related technologies. Before joining Microsoft, Doris Chen was a Technology Evangelist at Sun Microsystems. Doris received her Ph.D. from the University of California at Los Angeles (UCLA) in computer engineering, specializing in medical informatics.",
-        "tags": [
-            "Chrome"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+DorisChenTung"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/doristchen"
-            },
-            {
-                "name": "Blog",
-                "link": "http://blogs.msdn.com/b/dorischen/"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Jenny Tong",
-        "title": "Developer Advocate",
-        "company": "Google",
-        "country": "USA",
-        "photoUrl": "../../images/people/jenny_tong.jpg",
-        "bio": "Jenny is a Developer Advocate on Cloud at Google. In this role she helps developers build cool stuff on all sorts of platforms. Previously she worked in a wide variety of software roles from robotics at NASA, to developer advocacy for Google Glass. She is passionate about education, especially on the subjects of technology and science. If she's away from her laptop, she's probably skating around a roller derby track, or hanging from aerial silk.",
-        "tags": [
-            "Android",
-            "Firebase"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+mimming"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "name": "John Feig",
-        "title": "Software Engineer",
-        "company": "TiKL, Inc",
-        "country": "USA",
-        "photoUrl": "../../images/people/john_feig.jpg",
-        "bio": "Google Developer Expert for Wearables (Google Glass and Android Wear) and Software Engineer at TiKL, Inc. I get to do lots of fun stuff at TiKL, like writing clients for new platforms from scratch, and touching the full stack. I have worked on the Android client, the Java servers, a web client, a bit of PhotoShop, as well as keeping up with TiKL's social media presence. My goal as a GDE is to help people write solid code, and help them to really wrap their heads around the platform.",
-        "tags": [
-            "Android"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Android Wear / Glass Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/e-john-feig"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/+EJohnFeig"
-            },
-            {
-                "name": "Website",
-                "link": "http://ejf.io"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/ejohnfeig"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/emil10001"
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "name": "Martin Omander",
-        "title": "Program Manager for Google Developer Relations",
-        "company": "Google",
-        "country": "USA",
-        "photoUrl": "../../images/people/martin_omander.jpg",
-        "bio": "",
-        "tags": [
-            "Community"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/+MartinOmander"
-            }
-        ]
-    },
-    {
-        "id": 10,
-        "name": "Justin Ribeiro",
-        "title": "Software Engineer",
-        "company": "Stickman Ventures Inc",
-        "country": "USA",
-        "photoUrl": "../../images/people/justin_ribeiro.jpg",
-        "bio": "For the last 18 years, Justin has worked on enterprise and consumer-based software products – and is no stranger to building and deploying large-scale architecture for users in the field. As an early Google Glass Explorer, he has also worked extensively on integrating existing services with the platform – from real-time warehouse tracking to in-the-field sensor tracking for use in water management within agricultural operations. When Justin isn't building for Glass and Wear, he can be found building for Android and the web. Justin has successfully helped many startups bring concepts and ideas to market, and developed new internal systems to help even established companies become more efficient. Right now, Justin works at Stickman Ventures, managing software development teams on the US West Coast and overseas. He is also a co-organiser at GDG Oakdale, where he teaches and speaks on a wide range of Google technologies. He also spends time wiring and coding the Oakdale OpenMesh – a community-driven open wifi network. He lives in Oakdale with his wife, three daughters, and darkroom stockpile of HC-110.",
-        "tags": [
-            "Beacons / Physical Web"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Android Wear / GlassGoogle Developer Expert",
-                "link": "https://developers.google.com/experts/people/justin-ribeiro"
-            },
-            {
-                "name": "GDG",
-                "description": "Google Developers Group Oakdale",
-                "link": "https://developers.google.com/groups/chapter/117677091518865462359/"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+JustinRibeiro"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/justinribeiro"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/justinribeiro"
-            },
-            {
-                "name": "Web",
-                "link": "https://www.justinribeiro.com/"
-            }
-        ]
-    },
-    {
-        "id": 11,
-        "name": "Etienne Caron",
-        "title": "Senior Mobile Developer / Android Lead",
-        "company": "Intel Security",
-        "country": "USA",
-        "photoUrl": "../../images/people/etienne_caron.jpg",
-        "bio": "Etienne has been an active member of the Android developer community in Montreal since 2010, and regularly devotes his time towards mentoring startups, developers and students in the mobile space. As part of the Montreal Android GDG, he organises meetups, hackathons, and gives regular talks on Android-related subjects. He's now part of the Google Developer Expert program.",
-        "tags": [
-            "Google Cardboard",
-            "Android"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Android Developer Expert",
-                "link": "https://developers.google.com/experts/people/justin-ribeiro"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+EtienneCaron"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/pub/etienne-caron/14/a65/5"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/kanawish"
-            },
-            {
-                "name": "Web",
-                "link": "http://gde.ninja/"
-            }
-        ]
-    },
-    {
-        "id": 12,
-        "name": "JeanCarl Bisson",
-        "title": "Technical Evangelist",
-        "company": "IBM",
-        "country": "USA",
-        "photoUrl": "../../images/people/jeancarl_bisson.jpg",
-        "bio": "JeanCarl Bisson is a Technical Evangelist for IBM Bluemix. He has participated in over 100 hackathon over the last six years, winning prizes and cash. He has taken several hacks to market. He loves to quickly build prototypes and see how they work out.",
-        "tags": [
-            "Chrome",
-            "JavaScript"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+JeanCarlBisson"
-            }
-        ]
-    },
-    {
-        "id": 13,
-        "name": "Gerard Sans",
-        "title": "Software Developer",
-        "company": "Independent",
-        "country": "UK",
-        "photoUrl": "../../images/people/gerard_sans.jpg",
-        "bio": "Gerard is a multi-talented Computer Science Engineer specialised in Web. He is now an AngularJS fanboy and a community activist fighting for the JavaScript revolution. He has lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. He is always up for a good challenge. He enjoys running AngularJS Labs London, mentoring AngularJS students, participating in the community, giving talks and writing technical articles at Medium.",
-        "tags": [
-            "Chrome",
-            "JavaScript"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Web Technologies Developer Expert",
-                "link": "https://developers.google.com/experts/people/gerard-sans?hl=es-419"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/+GerardSans"
-            }
-        ]
-    },
-    {
-        "id": 14,
-        "name": "Matias Molinas",
-        "title": "Software Developer",
-        "company": "JustMotion LLC",
-        "country": "ARG",
-        "photoUrl": "../../images/people/matias_molinas.jpg",
-        "bio": "Matias is an experienced software architect, designer, and developer. He has worked on multiple projects, including consumer, enterprise, and medical software products and applications.<br>He's currently working as a Java Architect on an eCommerce platform for Project ARA. The project will enable users to create a modular smartphone that's precisely tailored to their functional and aesthetic preferences. Since 2011, Matias has been a Google Developer Expert for YouTube APIs.<br>As an independent entrepreneur, Matias is also currently involved in a new platform for mobile application and wearable technology – and has previously run a startup venture related to smart video and social content recommendation engine, and in an ads optimisation tool. He was a consultant for the University of Nebraska too – for a project in computer aided surgery, addressing design, 3D-tracking, and 3D-visualization aspects.<br>At college, Matias studied Biomedical Engineering at the UNER in Argentina – where he lives with his wife and two children. When time allows, he enjoys playing water polo.",
-        "tags": [
-            "Android Wear",
-            "Android",
-            "Google Fit"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Android Developer Expert",
-                "link": "https://developers.google.com/experts/people/matias-molinas"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/+MatiasMolinas"
-            }
-        ]
-    },
-    {
-        "id": 15,
-        "name": "Damodar Periwal",
-        "title": "Software Engineer, Founder",
-        "company": "Software Tree",
-        "country": "USA",
-        "photoUrl": "../../images/people/damodar_periwal.jpg",
-        "bio": "Damodar Periwal has an extensive background in databases, transaction processing, as well as distributed and object-oriented technologies. Damodar has more than 25 years of industry experience, having worked at leading companies like Google, TIBCO, Borland, Ashton-Tate, and Tandem Computers. Damodar has an MS (Computer Science) degree from University of Wisconsin (Madison) and an undergraduate engineering degree from Birla Institute of Technology and Science, Pilani (India).",
-        "tags": [
-            "Android",
-            "Android Object Relational Mapping"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/107558643286241506852"
-            }
-        ]
-    },
-    {
-        "id": 16,
-        "name": "Murat Yener",
-        "title": "Android Developer",
-        "company": "Intel",
-        "country": "TUR",
-        "photoUrl": "../../images/people/murat_yener.png",
-        "bio": "Murat Yener is a code geek, open source committer and working in Intel as an Android Developer. He has extensive experience on developing Java, Web, JavaEE and OSGi applications besides teaching courses and mentoring. Murat is an Eclipse committer and one of the initial committers of Eclipse Libra project. He is currently working on building native and Hybrid mobile apps with mGWT. <br>He is the author of upcoming Professional Java EE Design Patterns book from Wiley. He has been a user group leader at GDG Istanbul since 2009. Murat is a regular speaker at conferences like JavaOne, EclipseCon and user group meetings.",
-        "tags": [
-            "Android"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Android Developer Expert",
-                "link": "https://developers.google.com/experts/people/matias-molinas"
-            },
-            {
-                "name": "GDG",
-                "description": "Google Developers Group Istanbul",
-                "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+MuratYener"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "www.linkedin.com/in/muratyener"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/yenerm"
-            },
-            {
-                "name": "Blog",
-                "link": "www.devchronicles.com"
-            }
-        ]
-    },
-    {
-        "id": 17,
-        "name": "Siamak Ashrafi",
-        "title": "Researcher/Developer",
-        "company": "Biotech Startup",
-        "country": "USA",
-        "photoUrl": "../../images/people/siamak_ashrafi.jpg",
-        "bio": "Ash is a researcher TDI working on medical biomarkers (scientific publications) & CTO Zoewear building physiologically intelligent clothing (technology patents).  His frequent code-a-thon wins have gone on to become published Apps (iOS & Android).  As a thought leader in wearable/mobile development he is an enthusiastic teacher/speaker helping to promote the ecosystem (fashion & technology).  You can usually catch him DJ or competing in one of the phases of water. (Snowboarding [solid], Surfing [liquid] & Kiteboarding [vapor].",
-        "tags": [
-            "Android Wear"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/+SiamakAshrafi"
-            }
-        ]
-    },
-    {
-        "id": 18,
-        "name": "Latha Krishnaswamy",
-        "title": "Researcher/Developer",
-        "company": "",
-        "country": "",
-        "photoUrl": "",
-        "bio": "Software development expertise, entrepreneur enthusiast in new software development.",
-        "tags": [
-            "Google Cloud Platform"
-        ]
-    },
-    {
-        "id": 19,
-        "name": "Lynn Langit",
-        "title": "Independent Cloud and Big Data Architect",
-        "company": "Lynn Langit Consulting",
-        "country": "USA",
-        "photoUrl": "../../images/people/lynn_langit.jpg",
-        "bio": "Big Data and Cloud Architect - AWS Community Hero, Google Cloud Developer Expert, Microsoft MVP. Author of Lynda.com, Pluralsight, Wintellect and DevelopMentor courseware. YouTube BigData playlist. Over 250k people have watched my 'Hadoop Fundamentals' courses online.",
-        "tags": [
-            "Google Cloud Platform"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Google Cloud Developer Expert",
-                "link": "https://developers.google.com/experts/people/lynn-langit"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/+LynnLangit"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/lynnlangit"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/lynnlangit"
-            },
-            {
-                "name": "Web",
-                "link": "http://lynnlangit.com/"
-            }
-        ]
-    },
-    {
-        "id": 20,
-        "name": "Todd McLeod",
-        "title": "Faculty",
-        "company": "Fresno City College",
-        "country": "USA",
-        "photoUrl": "../../images/people/todd_mcleod.jpg",
-        "bio": "Todd McLeod is Faculty in Computer Science at California State University, Fresno. He is also faculty at Fresno City College.",
-        "tags": [
-            "Go"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/102058450286415797711"
-            }
-        ]
-    },
-    {
-        "id": 21,
-        "name": "Keven Wang",
-        "title": "Senior Technical Staff",
-        "company": "SalesforceIQ",
-        "country": "USA",
-        "photoUrl": "",
-        "bio": "Keven Wang is a Senior Member of Technical Staff at SalesforceIQ, where he leads the Chrome extension project, building it from zero into the fastest-growing client at RelateIQ. On this journey, Keven architected Chrome extension to enable rapid deployment and code-sharing with RelateIQ's web-app client using AngularJS. Keven has delivered 10+ features in Chrome extension in 12 months, leveraging backend infrastructure on email / calendar sync (IMAP, Google Calendar API) and push notifications (Google Cloud Messaging). Keven joined RelateIQ in 2013, prior to its acquisition by Salesforce in 2014.",
-        "tags": [
-            "Chrome",
-            "JavaScript"
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/109191163123171982574"
-            }
-        ]
-    },
-    {
-        "id": 22,
-        "name": "Valentyn Shybanov",
-        "title": "Software Engineer",
-        "company": "Twinfield",
-        "country": "UKR",
-        "photoUrl": "../../images/people/valentyn_shybanov.jpg",
-        "bio": "Started software engineering career with low level system programming mostly on start of the era of modern computers, my interest involved from programming calculators and simple games to developing complex enterprise-level cloud-based solutions. Now, with help of modern technologies, solutions and concepts, I am not just trying to bring any, even most courageous ideas into life, but also spread the light of all brilliant technology solutions I can find to all other developers. Now focused on combination of Web technologies (AngularJS, Dart) and cloud platforms (Google Cloud Platform, Amazon EC2, Azure etc).<br> Currently I am Google Developer Expert (Cloud and Web) and Software Architect of Twinfield International N.V. and building online accounting system and responsible for making architectural decisions for bringing Twinfield application into cloud. Also part of Wolter’s Kluwer’s European PaaS initiative (building enterprise-level PaaS solution to unify development environment for different WK companies).",
-        "tags": [
-            "App Engine",
-            "Chrome",
-            "JavaScript",
-            "Dart",
-            "GoLang"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Google Cloud Platform Developer Expert",
-                "link": "https://developers.google.com/experts/people/valentyn-shybanov"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+ValentynShybanov"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/olostan"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/olostan"
-            }
-        ]
-    },
-    {
-        "id": 23,
-        "name": "Mike Wolfson",
-        "title": "Independent Android Developer",
-        "company": "ClearToken",
-        "country": "USA",
-        "photoUrl": "../../images/people/mike_wolfson.png",
-        "bio": "Mike is a senior-level Android\\Java developer with a proven history of success and a long list of accomplishments. He's also a great developer, an excellent communicator and leader, and has a comprehensive knowledge of the full life-cycle of mobile-focused development and design. Mike's a passionate coder too, with an eye for simplicity – and a love for writing beautiful, pragmatic, code.",
-        "tags": [
-            "Android"
-        ],
-        "badges": [
-            {
-                "name": "GDE",
-                "description": "Android Developer Expert",
-                "link": "https://developers.google.com/experts/people/mike-wolfson"
-            }
-        ],
-        "socials": [
-            {
-                "name": "Google+",
-                "link": "https://plus.google.com/+MichaelWolfson"
-            },
-            {
-                "name": "Twitter",
-                "link": "https://twitter.com/mikewolfson"
-            },
-            {
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/profile/view?id=5033923"
-            },
-            {
-                "name": "web",
-                "link": "http://www.mikewolfson.com/"
-            }
-        ]
-    },
-    {
-        "id": 24,
-        "name": "Forbes Hedges",
-        "title": "",
-        "company": "Cloudata Inc",
-        "country": "USA",
-        "photoUrl": "",
-        "bio": "Cloudata Czar and CloudBnB Marketplace Builder and Operator (www.hwswworld.com), has accumulated over 20 years of experience in automation, which is part of his passion instead of career. He started his career in the EDA industry working for two public companies on chip design automation before he started his own startup journey as a self-taught businessman by bootstrapping a few startups including Cloudata Inc.",
-        "tags": [
-            "Hyperscale Hyperconvergence"
-        ]
-    }
-]
+[{
+    "id": 12,
+    "featured": true,
+    "name": "Jana Moudrá",
+    "title": "Co-Founder",
+    "company": "Juicymo",
+    "country": "Prague, Czech Republic",
+    "photoUrl": "../../images/people/jana_moudra.jpg",
+    "bio": "GDE (Google Developer Expert) for Dart. Jana is a passionate developer and modern web and mobile technology evangelist. She is an event organiser for GDG Prague, where she arranges events for developers including public lectures, code labs and hackathons – covering a wide range of subjects including technologies Dart or Android. She loves to help other developers and spread the knowledge about these technologies. <br/><br/>Jana co-founded a company called Juicymo, where she works on juicy apps and products and teaches at Unicorn College.",
+    "tags": ["Web"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Dart Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/jana-moudr"
+    }, {
+        "name": "GDG",
+        "description": "Google Developers Group Prague",
+        "link": "https://developers.google.com/groups/chapter/117819266709320995508/"
+    }],
+    "socials": [{
+        "name": "Website",
+        "icon": "link",
+        "link": "http://www.moudra.net"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/+JanaMoudra/posts"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://cz.linkedin.com/in/janamoudra"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/Janamou"
+    }]
+}, {
+    "id": 11,
+    "featured": true,
+    "name": "Marie Schweiz",
+    "title": "",
+    "company": "Freelance UI / UX",
+    "country": "Munih, Germany",
+    "photoUrl": "../../images/people/marie_schweiz.jpg",
+    "bio": "Marie was one of the first freelance designers for android, back in 2011. With her unique specialty she spoke at several conferences such as Mobile design Meetup Oslo, DevFest Istanbul, Campus London, UXcamp Europe, droidcon Italy, Webexpo Prague from 2011 until now. As senior mobile UX designer, her help influenced huge tech giants and startups to improve their mobile experience and relationship with their developers.",
+    "tags": ["Mobile", "Design"],
+    "socials": [{
+        "name": "Website",
+        "icon": "link",
+        "link": "http://marie-schweiz.de/"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/+MarieSchweiz/posts"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://de.linkedin.com/pub/marie-schweiz/41/a29/993"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/ma_rylou"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/MarieSchweiz"
+    }]
+}, {
+    "id": 34,
+    "featured": true,
+    "name": "Baris Yesugey",
+    "title": "Region Lead, Google Developer Relations",
+    "company": "Google",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/baris_yesugey.jpg",
+    "bio": "As an engineer who is in love with the coolest new technology, I thrive by connecting to other developers who share similar passions. My team is behind all the rich, technical content on developers.google.com<br/><br/>I act as an advocate for third party developers’ needs within Google and passionate evangelists for Google technologies in the outside world. I love connecting with other developers and partners; people who enjoy teaching, speaking or writing about cutting-edge technologies.<br/><br/>By working closely with third party developers who are building applications and businesses that showcase Google’s developer platforms, I grow and support the developer community, teaching and supporting developers around MENA region.",
+    "tags": [""],
+    "badges": [{
+        "name": "Googler",
+        "description": "Googler",
+        "link": "https://google.com.tr"
+    }],
+    "socials": [{
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://www.linkedin.com/in/barisyesugey"
+    }]
+}, {
+    "id": 32,
+    "featured": true,
+    "name": "Esin IŞIK",
+    "title": "Independent Experience Designer",
+    "company": "Esin ISIK Experience Design",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/esin_isik.jpg",
+    "bio": "Esin is an independent user experience designer with 5 years experience in fields including banking IT, user research in sensitive topics, emotional design, interaction design, service design, creative facilitation.<br/><br/>She completed a master's degree in TUDelft in the Netherlands in 2010 in the field of Design for Interaction after an undergarduate degree at the department of Industrial Design at METU (Middle East Technical University) in Ankara in 2007. She first started with digital experience design consulting in i-am Istanbul, then was in Denizbank and Garanti Bank's IT companies.<br/><br/>Her current focus is getting startup teams to become more experience design conscious and she also keeps being  a consultant for corporate design teams and IT projects.",
+    "tags": ["Design"],
+    "socials": [{
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://tr.linkedin.com/in/esinis"
+    }]
+}, {
+    "id": 8,
+    "featured": true,
+    "name": "Jonathan LeBlanc",
+    "title": "Head of Global Developer Advocacy",
+    "company": "Paypal",
+    "country": "France",
+    "photoUrl": "../../images/people/jonathan_leblanc.jpg",
+    "bio": "Jonathan LeBlanc is an Emmy award winning software engineer, author of the O’Reilly book \"Programming Social Applications\", co-author of the upcoming title \"Identity and Data Security for Web Developers\", and the Head of Global Developer Advocacy for Braintree and PayPal.<br/><br/>Specializing in identity, auth and security, hardware to web interconnectivity, and data mining techniques, as well as open source initiatives around social engagement, Jonathan works on the development of emerging initiatives towards building a more user-centric web.",
+    "tags": ["Mobile", "Securiy"],
+    "socials": [ {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/jcleblanc"
+    }, {
+        "name": "Website",
+        "icon": "link",
+        "link": "http://lanyrd.com/profile/jcleblanc/"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://www.linkedin.com/in/jcleblanc"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/jcleblanc"
+    }]
+}, {
+    "id": 15,
+    "name": "Buşra Deniz",
+    "title": "Mobile Software Developer",
+    "company": "GDG Istanbul",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/busra_deniz.jpg",
+    "bio": "Busra Deniz is a Software Engineer who has a keen interest in developing high-quality software by applying agile principles and methodologies, especially Scrum.<br/><br/>She is a Certificated Scrum Master and mobile engineer in Netas. Currently, working on an international project that provides iOS and Android SDKs those allow other programmers to develop their applications, which are capable of voice call, video call and IM using WebRTC.<br/><br/>Besides being co-organizer in two different community, Google Developer Group and WomenTechMakers İstanbul, she enjoys voluntarily organizing and speaking at developer events. Also, she believes in sharing knowledge and collaborating with the other people through these events, will come hand in hand with innovation and new perspectives. She always loves being part of a team and thinks that individual commitment to a team is the key to success. As a result of that she is a big fan of agile methodologies including Scrum, TDD and XP. Besides agile, she is also got excited almost every new technology in mobile platforms. And, as a software engineer, her goal is delivering software with high quality and robust architecture. In order to achieve that she highly relies on unit testing and mobile test automation.",
+    "tags": ["Web", "WEB RTC"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+    }, {
+        "name": "WTM",
+        "description": "Women Tech Makers Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/107161766252148547668"
+    }, {
+        "name": "LinkedIn",
+        "icon": "app-icons:linkedin",
+        "link": "https://tr.linkedin.com/in/busradeniz"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/busradeniz"
+    }, {
+        "name": "Blog",
+        "icon": "link",
+        "link": "http://www.busradeniz.com/"
+    }]
+}, {
+    "id": 17,
+    "featured": true,
+    "name": "Şahin Yalabık",
+    "title": "Game Designer",
+    "company": "Gram Games",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/sahin_yalabik.jpg",
+    "bio": "I'm a game designer, currently working at Gram Games since June 2015.<br/>My previous job experiences/titles were:<br/>-Game Designer / Producer at Peak Games (2011-2014)<br/>-Boardgame Designer / Founder at Oyun Mühendisi (2007-2011)<br/><br/>So far, I've worked at 3 f2p titles, each one installed on 1 million+  devices. I also have 2 published boardgame titles currently available in the market.",
+    "tags": ["Mobile", "Game"],
+    "socials": [{
+        "name": "Facebook",
+        "icon": "app-icons:facebook",
+        "link": "https://www.facebook.com/sahinyalabik"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://tr.linkedin.com/in/sahin-yalabik-94941957"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/SahinYalabik"
+    }]
+}, {
+    "id": 18,
+    "featured": true,
+    "name": "Murat Gürel",
+    "title": "Game Developer",
+    "company": "Gram Games",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/murat_gurel.jpg",
+    "bio": "Currently works at Gram Games as a Game Developer. He has been developing mobile apps and games professionally for 3 years. Previous works include native apps and cross-platform games with Unity. Graduated from University of Surrey, England with a degree in Electronics & Computer Engineering.",
+    "tags": ["Mobile", "Game"],
+    "socials": [{
+        "name": "Github",
+        "icon": "app-icons:github",
+        "link": "https://github.com/muratgurel"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://tr.linkedin.com/in/mrtgurel"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/muratgurel"
+    }]
+}, {
+    "id": 22,
+    "featured": true,
+    "name": "Geertjan Wielenga",
+    "title": "Product Manager",
+    "company": "NetBeans",
+    "country": "",
+    "photoUrl": "../../images/people/gj_wielenga.jpg",
+    "bio": "Geertjan is a product manager working on JavaScript and Java in Oracle, together with tools provided by NetBeans IDE.",
+    "tags": ["Java", "JavaScript", "NetBeans"],
+    "socials": [{
+        "name": "Website",
+        "icon": "link",
+        "link": "blogs.oracle.com/geertjan"
+    }, {
+        "name": "Github",
+        "icon": "app-icons:github",
+        "link": "https://github.com/geertjanwielenga"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/geertjanw"
+    }]
+}, {
+    "id": 16,
+    "featured": true,
+    "name": "Mark Stephens",
+    "title": "",
+    "company": "IDRsolutions",
+    "country": "UK",
+    "photoUrl": "../../images/people/mark_stephens.jpg",
+    "bio": "Mark Stephens has been working with Java since 1997 and PDF since 1999. He is an Entrepreneur and software developer who setup IDRsolutions in 1999. IDRsolutions develops a Java PDF library and a PDF to HTML5/SVG converter. He has an MSC degree in Computer Science and an MA in Mediaeval History with a detailed knowledge of Byzantine and Ottoman History. So DevFest is his dream conference as it combines coding with castles, churches, mosques and cisterns.",
+    "tags": ["Java"],
+    "socials": [{
+        "name": "Website",
+        "icon": "link",
+        "link": "https://www.facebook.com/idrsolutions/"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/+MarkStephens174/about"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://www.linkedin.com/in/mnstephens"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/javaPDF"
+    }]
+}, {
+    "id": 29,
+    "name": "Gökhan Yılmaz",
+    "title": "IT Specialist",
+    "company": "IBM",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/gokhan_yilmaz.jpg",
+    "bio": "Gökhan Yılmaz, Fırat Üniversitesinden mezun olduktan sonra IBM'de Bilişim Teknolojileri  Uzmanı  olarak Web Ara Katman Uygulamaları ekibinde görev almıştır. Gökhan, öğrencilik hayatında IBM Next-Generation Topluluğunda üniversite temsilcisi olarak görev almış ve birçok IBM Teknolojisi ile çalışma fırsatı bulmuştur. 2014 yılında IBM Yazılım Akademisi'ne katılarak Türkiye birincisi seçilmiş ve Prag'da düzenlenen IBM Best Student Recognition Event'e katılma hakkı kazanmıştır. Gökhan, ayrıca Bluemix ile ilgili Türkçe kaynaklar oluşturmakta ve bunları gokhanyilmaz.name adresinde okurları ile paylaşmaktadır.",
+    "tags": ["Cloud"]
+}, {
+    "id": 30,
+    "name": "Burak Çakıl",
+    "title": "Cloud Platform Solutions Consultant",
+    "company": "IBM",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/burak_cakil.jpg",
+    "bio": "Burak is a Cloud Technical Consultant  working in Ecosystem Development, IBM Turkey. He is specialized in IBM Bluemix, which is a Cloud PaaS platform. He has 9 years of IT experience. Previously, he worked as a Middleware Specialist for 5 years. He is experienced in Java EE application development, and middleware such as IBM WebSphere, Oracle Weblogic, Tomcat etc. He has a BSc degree from Computer Engineering, Yildiz Technical University, and he is continuing for his MSc degree from the same department.",
+    "tags": ["Cloud"]
+}, {
+    "id": 13,
+    "name": "Elif Boncuk",
+    "title": "Software Specialist",
+    "company": "Garanti Teknoloji",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/elif_boncuk.jpg",
+    "bio": "Mobile Application Developer at Garanti Technology. Working on mobile technologies especially on Android (since Eclair) more than 4 years since the team formation in her current company. <br/>Tech Enthusiast, Blogger, Traveller, Photographer",
+    "tags": ["Mobile"],
+    "socials": [{
+        "name": "Website",
+        "icon": "link",
+        "link": "https://elifboncuk.wordpress.com/"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/+ElifBoncuk"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://tr.linkedin.com/pub/elif-boncuk/28/a87/855"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/elifbon_"
+    }, {
+        "name": "Website",
+        "icon": "link",
+        "link": "https://medium.com/@elifbon"
+    }]
+}, {
+    "id": 20,
+    "featured": true,
+    "name": "Xavier Hallade",
+    "title": "Application Engineer",
+    "company": "Intel",
+    "country": "France",
+    "photoUrl": "../../images/people/hallade_xavier.jpg",
+    "bio": "Xavier is application engineer at Intel Software and Services Group, where he works on a wide range of Android frameworks, libraries and applications.<br/><br/>He's a Google Developer Expert in Android, with a focus on the Android NDK and Android TV.",
+    "tags": ["Android", "NDK"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/xavier-hallade"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/106834066322753191683/posts"
+    }, {
+        "name": "LinkedIn",
+        "icon": "app-icons:linkedin",
+        "link": "https://www.linkedin.com/in/xavierhallade"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/ph0b"
+    }, {
+        "name": "Website",
+        "icon": "link",
+        "link": "http://ph0b.com/"
+    }]
+}, {
+    "id": 1,
+    "name": "Said Tahsin Dane",
+    "title": "Android Developer",
+    "company": "GDG Istanbul",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/said_tahsine_dane.jpg",
+    "bio": "GDE (Google Developer Expert) for Android. Experience with Android (since Cupcake), Google Glass, Android Wear, and (even on!) iOS. Very passionate developer who tries to live on the bleeding edge of technology. Also very interested in mobile UX. <br/><br/>Active member and organizer at GDG Istanbul enjoying organizing various conferences and hackathons. Also a part of GDG[X] - a GDG related open-source organization.",
+    "tags": ["Android", "Material Design"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/said-tahsin-dane"
+    }, {
+        "name": "GDG",
+        "description": "Google Developers Group Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+    }],
+    "socials": [{
+        "name": "Website",
+        "icon": "link",
+        "link": "http://www.tasomaniac.com/"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/tasomaniac"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/tasomaniac"
+    }]
+}, {
+    "id": 2,
+    "name": "Hasan Hosgel",
+    "title": "Senior Android Engineer",
+    "company": "Kitchen Stories",
+    "country": "Germany",
+    "photoUrl": "../../images/people/hasan_hosgel.jpg",
+    "bio": "Hasan Hoşgel is a dedicated Android developer with more then ten years of professional programming. Since 2010 also developing Android applications. Continuous improvement of the architecture and also quality are his interest. He is also co-organizer of the “GDG Berlin Android”. Now working for Kitchen Stories and before that more then seven years for ImmobilienScout24.",
+    "tags": ["Android", "Mobile"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group Berlin Android",
+        "link": "https://developers.google.com/groups/chapter/102464661817600154044/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/+HasanHosgel"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/alosdev"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/alosdev"
+    }]
+}, {
+    "id": 9,
+    "featured": true,
+    "name": "Orhan Obut",
+    "title": "Android Developer",
+    "company": "Blacklane",
+    "country": "Germany",
+    "photoUrl": "../../images/people/orhan_obut.jpg",
+    "bio": "Orhan Obut is android developer at Blacklane in Berlin. He is a big fan of open-source and constantly supports it. He has been worked on various projects from m-banking applications to m-commerce applications. He always aims to use the software principles, best practices and share the knowledge with the community.",
+    "tags": ["Mobile"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/orhan-obut"
+    }],
+    "socials": [{
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/orhanobut"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/orhanobut"
+    }]
+}, {
+    "id": 14,
+    "featured": true,
+    "name": "Enrique López Mañas",
+    "title": "Mobile Developer",
+    "company": "Freelance",
+    "country": "Munich, Germany",
+    "photoUrl": "../../images/people/enrique_lopez_manas.jpg",
+    "bio": "Enrique is a Google Developer Expert, and Freelance Mobile Engineer in Munich.<br/><br/>He spends his free time developing OpenSource code, writing articles, learning languages or taking photographies. He loves books, nature, traveling, and talking about him in third person",
+    "tags": ["Mobile"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/enrique-l-pez-ma-as"
+    }],
+    "socials": [{
+        "name": "Website",
+        "icon": "link",
+        "link": "http://bit.ly/EnriqueLopezManas"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/eenriquelopez"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/kikoso"
+    }]
+}, {
+    "id": 3,
+    "name": "Çağatay Çivici",
+    "title": "Founder",
+    "company": "PrimeTek",
+    "country": "Turkey",
+    "photoUrl": "../../images/people/cagatay_civici.jpg",
+    "bio": "Cagatay Civici is a member of JavaServer Faces Expert Group in JCP, the founder of popular PrimeFaces Project and PMC member of open source JSF implementation Apache MyFaces. He’s a recognized speaker in international conferences such as JavaOne and in many local JUG events around the world. Cagatay is also the co-author of \"Definitive MyFaces\" book and technical reviewer of various books on java web frameworks. He has over 10 years of experience in front end development with java.",
+    "tags": ["Web"],
+    "socials": [{
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/cagataycivici"
+    }]
+}, {
+    "id": 4,
+    "name": "Martin Liersch",
+    "title": "Android Developer",
+    "company": "Freelance",
+    "country": "Germany",
+    "photoUrl": "../../images/people/martin_liersch.jpg",
+    "bio": "He is an Android developer and works as a freelancer. Since he got his first phone running Android 2.0 he has developed a couple of dozen apps, of which some cracked the 1 million download mark. He is also a co-lead of GDG (Google Developer Group) Bodensee.",
+    "tags": ["Android", "Mobile"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group Bodensee",
+        "link": "https://developers.google.com/groups/chapter/102464661817600154044/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/+MartinLiersch/posts"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/Goddchen"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/Goddchen/"
+    }]
+}, {
+    "id": 7,
+    "name": "Pietro Alberto Rossi",
+    "title": "Android Developer",
+    "company": "Yaapo Mobile",
+    "country": "Italy",
+    "photoUrl": "../../images/people/pietro_alberto_rossi.jpg",
+    "bio": "Programmer since 2000, starting with QBasic and most recently Android development and learning C, Assembler, C++, HTML, PHP and Java along the way.Working in a startup Mosaicoon S.P.A., my strength is Android programming and problem solving. I've been an invited speaker at Rome Codemotion 2013, Madrid Codemotion 2013, Google London such as candidate Google Developer Expert in Android and Droidcon Italy. I also been a speaker in other national events such as Linux, Day Linux Meeting, Java Day in Palermo and Ragusa.",
+    "tags": ["Mobile"],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://www.google.com/+PietroAlbertoRossi"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/sprik89"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/sprik"
+    }, {
+        "name": "SlideShare",
+        "icon": "link",
+        "link": "http://www.slideshare.net/sprikmeister"
+    }]
+}, {
+    "id": 23,
+    "name": "Salim Kayabaşı",
+    "title": "Web Developer",
+    "company": "GDG Istanbul",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/salim_kayabasi.jpg",
+    "bio": "",
+    "tags": ["Web", "Polymer"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Web Google Developer Expert",
+        "link": "https://developers.google.com/experts/"
+    }, {
+        "name": "GDG",
+        "description": "Google Developers Group Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+    }],
+    "socials": [{
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/salimkayabasi"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/salimkayabasi"
+    }]
+}, {
+    "id": 5,
+    "name": "Hüseyin Babal",
+    "title": "Full-Stack Software Engineer",
+    "company": "GittiGidiyor",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/huseyin_babal.jpg",
+    "bio": "Tuts+ and Java Code Geeks author, PHP, JAVA, NodeJS developer. Docker performer, and Docker Meetup Co-organizer. Building highly scalable, realtime systems. Web Development mentor. NodeJS trainer. GDG conference speaker.",
+    "tags": ["Cloud"],
+    "socials": [{
+        "name": "StackOverflow",
+        "icon": "app-icons:stackoverflow",
+        "link": "http://stackoverflow.com/users/1796105/h%C3%BCseyin-babal"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/huseyinbabal"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/huseyinbabal"
+    }]
+}, {
+    "id": 6,
+    "name": "Barış Güler",
+    "title": "Software Development Team Leader",
+    "company": "Markafoni",
+    "country": "Turkey",
+    "photoUrl": "../../images/people/baris_guler.jpg",
+    "bio": "I am the Front-end team leader in Markafoni using some of the latest technologies in web industry. Started the career as a back-end developer on the platform, J2EE and switched it into being an amateur Javascript developer. I call it like that since everyone need to see himself/herself as like it to improve abilities as well. Currently, working on design patterns and etc.",
+    "tags": ["Web"],
+    "socials": [{
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://tr.linkedin.com/pub/barış-güler/69/18a/3b9"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/hwclass"
+    }, {
+        "name": "GitHub",
+        "icon": "app-icons:github",
+        "link": "https://github.com/hwclass"
+    }]
+}, {
+    "id": 21,
+    "name": "Ihor Dvoretskyi",
+    "title": "Operation Engineer",
+    "company": "Mirantis Inc.",
+    "country": "Ukraine",
+    "photoUrl": "../../images/people/ihor_dvoretskyi.jpg",
+    "bio": "Ihor is an Operations Engineer at Mirantis Inc - the #1 Pure Play OpenStack Company, with a huge experience working in IT companies, where he was responsible for a couple of projects, tightly bound to Cloud computing and *nix systems. Ihor is deeply interested in OpenStack cloud platform, other Cloud technologies and Open Source projects. Also, Ihor is a big fan of Google and Google products.<br/><br/>Apart from work, Ihor is also interested in other branches of IT technology and starts diving into Robotics.",
+    "tags": ["Cloud", "Kubernetes", "Docker"],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/+IgorDvoretskyi/"
+    }, {
+        "name": "LinkedIn",
+        "icon": "app-icons:linkedin",
+        "link": "https://ua.linkedin.com/in/idvoretskyi"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/idvoretskyi"
+    }]
+}, {
+    "id": 19,
+    "name": "Resul Caner Yıldırım",
+    "title": "UX Designer",
+    "company": "GDG Istanbul",
+    "country": "Istanbul",
+    "photoUrl": "../../images/people/resul_caner_yildirim.jpg",
+    "bio": "Basically a technology geek. Focused on the marketing and design of mobile applications. Passionate about marketing, UX, IoT and Android. Since 2012, he has been writing technology news and articles on protechman.net<br/>Co-organiser of the Google Developer Group Istanbul & Chief Problem Solver of Mobil Istanbul. Speaks at conferences about marketing and UX. Also known as Protechman.",
+    "tags": ["IoT", "UX"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+    }],
+    "socials": [{
+        "name": "Facebook",
+        "icon": "app-icons:facebook",
+        "link": "https://www.facebook.com/r.caner.yildirim"
+    }, {
+        "name": "Github",
+        "icon": "app-icons:github",
+        "link": "https://github.com/protechman"
+    }, {
+        "name": "Website",
+        "icon": "link",
+        "link": "https://dribbble.com/protechman"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/+RCanerYıldırım/"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://www.linkedin.com/in/protechman"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/protechman"
+    }]
+}, {
+    "id": 28,
+    "name": "Burak Aydın",
+    "title": "",
+    "company": "GDG Ankara",
+    "country": "Ankara",
+    "photoUrl": "../../images/people/burak_aydin.jpg",
+    "bio": "Burak is one of the founder of 4pps mobile development company. He works as backend and android developer for two years. He also tries some hacks on quadcopters, arduino, raspberry pi and ble devices for create innovative products. Deep in curiosity, coffee lover, cycler.",
+    "tags": ["Web"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group Ankara",
+        "link": "https://developers.google.com/groups/chapter/114568591151316164517/"
+    }],
+    "socials": [{
+        "name": "Github",
+        "icon": "app-icons:github",
+        "link": "https://github.com/burakaydn"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/burakaydn"
+    }]
+}, {
+    "id": 24,
+    "name": "Gülşah Köse",
+    "title": "",
+    "company": "Kripton",
+    "country": "Çanakkale",
+    "photoUrl": "../../images/people/gulsah_kose.jpg",
+    "bio": "Çanakkale Onsekiz Mart Üniversitesi Bilgisayar Mühendisliği mezunuyum. Özgür yazılım geliştiricisi ve gönüllüsüyüm. LibreOffice pebble bileşeninin sorumlusuyum. pebble-remote (http://www.pebbleremote.com) projesinin yazarıyım.",
+    "tags": ["Open Source"],
+    "socials": [{
+        "name": "Github",
+        "icon": "app-icons:github",
+        "link": "https://github.com/gulsahkose"
+    }, {
+        "name": "Website",
+        "icon": "link",
+        "link": "http://www.gulsahkose.com"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/+GülşahKöseC"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/gulsahkse"
+    }]
+}, {
+    "id": 25,
+    "name": "Aybuke Ozdemir",
+    "title": "",
+    "company": "Çanakkale 18 Mart Üniversitesi",
+    "country": "Çanakkale",
+    "photoUrl": "../../images/people/aybuke_ozdemir.jpg",
+    "bio": "Çanakkale 18 Mart Üniversitesi son sınıf öğrencisiyim.",
+    "tags": ["Open Source"],
+    "socials": [{
+        "name": "Github",
+        "icon": "app-icons:github",
+        "link": "https://github.com/aybuke"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/+aybukeozdemir"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://tr.linkedin.com/in/aybukeozdemir"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/aybuke_ozdemir"
+    }]
+}, {
+    "id": 26,
+    "name": "Kader Tarlan",
+    "title": "",
+    "company": "Çanakkale 18 Mart Üniversitesi",
+    "country": "Çanakkale",
+    "photoUrl": "../../images/people/kader_tarlan.jpg",
+    "bio": "",
+    "tags": ["Open Source"],
+    "socials": [{
+        "name": "Github",
+        "icon": "app-icons:github",
+        "link": "https://github.com/kadertarlan"
+    }, {
+        "name": "Website",
+        "icon": "link",
+        "link": "http://kadertarlan.github.io/"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/u/0/102326333048256990419"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://www.linkedin.com/pub/kader-tarlan/63/373/395"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/KdrTrln"
+    }]
+}, {
+    "id": 27,
+    "name": "Yeliz Taneroğlu",
+    "title": "",
+    "company": "Çanakkale 18 Mart Üniversitesi",
+    "country": "Çanakkale",
+    "photoUrl": "../../images/people/yeliz_taneroglu.jpg",
+    "bio": "",
+    "tags": ["Open Source"],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/101491250557255880038/posts"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/yeliztaneroglu"
+    }]
+}, {
+    "id": 31,
+    "name": "Filip  Maelbrancke",
+    "title": "Android Developer",
+    "company": "AppFoundry",
+    "country": "Belgium",
+    "photoUrl": "../../images/people/filip_maelbrancke.jpg",
+    "bio": "Filip Maelbrancke is a software consultant at AppFoundry in Belgium. He mainly works on Android projects in the financial services, telecom and media sectors as a developer and tech lead.",
+    "tags": ["Android"],
+    "socials": [{
+        "name": "Github",
+        "icon": "app-icons:github",
+        "link": "https://github.com/filipmaelbrancke"
+    }, {
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/+FilipMaelbrancke"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "https://be.linkedin.com/in/filipmaelbrancke"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/fmaelbrancke"
+    }]
+}, {
+    "id": 33,
+    "name": "Burcu Türkmen",
+    "title": "Android Developer",
+    "company": "GDG Eskişehir",
+    "country": "Eskişehir",
+    "photoUrl": "../../images/people/burcu_turkmen.jpg",
+    "bio": "She got bachelor degree from Anadolu University as a Computer Engineer in 2012 . She has an active role in GDG Eskişehir Community and she is one of the co-organizers at WTM  Eskişehir Community. She has began her career as an Android Developer and she also developes iOS Applications. ",
+    "tags": ["Android"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group Eskişehir",
+        "link": "https://developers.google.com/groups/chapter/115602346615910585045/"
+    }, {
+        "name": "WTM",
+        "description": "Women Tech Makers Eskişehir",
+        "link": "https://developers.google.com/groups/chapter/115602346615910585045/"
+    }],
+    "socials": [{
+        "name": "Facebook",
+        "icon": "app-icons:facebook",
+        "link": "https://www.facebook.com/btrkmn"
+    }, {
+        "name": "Linkedin",
+        "icon": "app-icons:linkedin",
+        "link": "tr.linkedin.com/in/btrkmn"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/btrkmn"
+    }]
+}, {
+    "id": 100,
+    "name": "GDG",
+    "title": "",
+    "company": "Google Developer Groups",
+    "country": "All Over The World",
+    "photoUrl": "../../images/people/gdg.jpg",
+    "bio": "Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API.<br/><br/>A GDG can take many forms -- from just a few people getting together to watch our latest video, to large gatherings with demos and tech talks, to events like code sprints and hackathons. However, at the core, GDGs are focused on developers and technical content, and the core audience should be developers.",
+    "tags": ["GDG"],
+    "socials": [{
+        "name": "Website",
+        "icon": "link",
+        "link": "https://developers.google.com/groups/"
+    }]
+}]

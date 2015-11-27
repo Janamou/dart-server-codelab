@@ -1,300 +1,471 @@
-[
-  {
-    "id": 1001,
-    "title": "Registration & Coffee",
-    "description": "Get your badge, coffee, enjoy networking"
-  },
-  {
-    "id": 1002,
-    "title": "Lunch",
-    "description": "Get some yummy food and enjoy moar networking"
-  },
-  {
-    "id": 101,
-    "title": "Beacons, Hinting, and You: Context and Discovery",
-    "description": "Letting your application know what's around you is hard. aGPS can be deceiving and work poorly indoors and the context of user is even more difficult to determine. With BLE beacons such as Eddystone, we can make our applications smarter. In this talk, I explore what exactly beacons are, how we can use them to hint and progressively enhance our users experience.",
-    "speakers": [
-      10
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 102,
-    "title": "Android Intents - Building a Public API on the Phone",
-    "description": "With Android, you have the ability to expose functionality of your app to other apps. Sharing content like images, or text is common, but you can do a lot more. This presentation will walk through a couple of examples, and discuss how this might be used to build something interesting.",
-    "speakers": [
-      8
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 103,
-    "title": "Building an Android chat app with Firebase",
-    "description": "Come learn how Firebase can power your Android app's backend. Firebase takes care of the stuff every app needs including data storage, user authentication, and hosting. This lets you focus on creating extraordinary user experiences instead of building a back end. </br></br>In this code lab a team of Google Developer Advocates will guide you through the process of building a chat application using Firebase and Android Studio. </br></br>This talk is an introduction to Firebase, but it assumes that you're already comfortable writing simple Android apps. Please come with Android Studio installed and your Android device ready to go.",
-    "speakers": [
-      7
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 104,
-    "title": "Building Web Sites that Work Everywhere",
-    "description": "How to build web sites that work well across various browsers versions and devices is always challenging for web developers. In the session, you’ll learn the best practices and strategy to develop cross-browser web sites that will work with the existing and future browsers. Tools for interoperability tests, cross-browser fundamentals, and tips and tricks on HTML5, CSS, JavaScript development will be illustrated.  Feature detection, CSS prefix, and fallbacks will all be examined in the session. A real life example will be used to demonstrate step by step how to build cross-browser and plug-in-Free experiences. With a couple of simple changes to your sites, you can take advantage of web standards and HTML5 features today without breaking your sites in the future. Expect a lot of demos and code in the session.",
-    "speakers": [
-      6
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 105,
-    "title": "Let's play Dart!",
-    "description": "In this session you will explore how to write your first server-side Dart application. Come to this workshop to try and learn Dart, have fun and see how you can write awesome applications and be productive with it. Note: please don't forget to bring your laptop with downloaded Dart and some editor/IDE with Dart support. More info: https://www.dartlang.org/downloads/.",
-    "speakers": [
-      5
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 106,
-    "title": "Looking Under The Hood of Chrome DevTools",
-    "description": "Chrome DevTools are arguably the most important position in every front-end developers toolset. They are used by 25 million users worldwide. But how do they work? Let's break them open and see!",
-    "speakers": [
-      4
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 107,
-    "title": "The power of Dataflow",
-    "description": "Dealing with massive datasets can be a real chore. The biggest pain point is setting up, and maintaining the infrastructure. However, that's now changing with the emergence of cloud products like Dataflow. Pablo will jump into this brand new product from Google, and show how it let's you focus on your code, rather than worrying about the infrastructure needed to work with big data. He'll talk about how you can use it to clean, and analyze your data with ease, and how Dataflow will spin up & tear down VM clusters for your data pipelines on the fly!",
-    "speakers": [
-      3
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 108,
-    "title": "Reeling in big data using Google BigQuery",
-    "description": "Managing infrastructure, worrying about scalability, and waiting for queries to finish executing are some of the biggest challenges when working with massive volumes of data. One solution is to outsource the heavy lifting to someone else, thereby allowing you to spend more time on actually analyzing, and drawing insights out of your data. Google want to be that someone else! Part of their big data product lineup, BigQuery is a bleeding edge SaaS that is designed to make it easy for users to get up and running without the need to care about operational overheads. In this presentation, Graham will give an introduction to BigQuery, and show how it can be used to query terabytes and billions of rows in ridiculously fast times. He'll cover its core features, cost model, available APIs, and caveats. Finally, he'll show how they used BigQuery at a recent project for Australia's largest ISP, and give a quick demo of BigQuery in action.",
-    "speakers": [
-      2
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 109,
-    "title": "Whisper Dungeon for Google Cardboard",
-    "description": "Design and develop for Virtual Reality is different than just making apps for a mobile device. We get extra depth and more complexity in control. In this talk, we will demo some VR games and talk about the process of making them.",
-    "speakers": [
-      1
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 110,
-    "title": "How Google can help your career in technology",
-    "description": "",
-    "speakers": [
-      9
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 111,
-    "title": "Let's Play! - Intro to Google Cardboard",
-    "description": "When I started making a Cardboard App, I had a lot to learn. I didn't know much about OpenGL, things kept breaking when I changed little details... it was painful. Not being a very sensible person, I kept going, and I'd like to share with you some of the things I found out.",
-    "speakers": [
-      11
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 112,
-    "title": "Hacking your idea together in 24 hours",
-    "description": "Ever wanted to develop an idea for an application or website? Learn techniques of how to quickly prototype your idea into a working application at a 24 hour hackathon.",
-    "speakers": [
-      12
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 113,
-    "title": "Angular — Introduction to Reactive Extensions (RxJS)",
-    "description": "Reactive Extensions for JavaScript (RxJS) is a reactive streams library that allows you to work with multiple asynchronous data streams (aka Observable sequences). Angular 2 http new module favours Rx over Promises. We are going to explore what is RxJS all about and how we can use it in Angular.",
-    "speakers": [
-      13
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 114,
-    "title": "Google Fit and Android Wear the perfect match for fitness apps",
-    "description": "",
-    "speakers": [
-      14
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 115,
-    "title": "JDXA, The KISS ORM for Android",
-    "description": "JDXA is a simple, non-intrusive, and flexible Object Relational Mapping (ORM) product that dramatically decreases development time by presenting a more intuitive object-oriented view of on-device SQLite relational data, eliminating the need to write and maintain endless lines of complex low-level SQL code. This presentation will provide an overview of JDXA with code snippets.",
-    "speakers": [
-      15
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 116,
-    "title": "Android and the Seven Dwarfs",
-    "description": "This talk will focus on seven great opensource libraries which do fix Android's programming model, the way jquery fixes javascript. The libraries below will be covered with example code, advantages, disadvantages, internals and when to use them.",
-    "speakers": [
-      16
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 117,
-    "title": "Wearing Jacquard Android",
-    "description": "A review of the current Google Project Jacquard and Project Soli with respect to Android Wear. This presentation will show how these projects will revolutionize wearables.",
-    "speakers": [
-      17
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 118,
-    "title": "Kaleidoscope with Dataflow",
-    "description": "Possibilities of discerning data patterns with data flow cloud scale data parallelism.",
-    "speakers": [
-      18
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 119,
-    "title": "Speed with Ease, NoSQL on GCP",
-    "description": "Lessons learned from running benchmark tests with the Aerospike team using Google Cloud Platform (GCP) virtual machines.",
-    "speakers": [
-      19
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 120,
-    "title": "Go Programming",
-    "description": "An Introduction to the Go Programming Language",
-    "speakers": [
-      20
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 121,
-    "title": "Rapid Deployment & Strategies for launching a browser extension in a startup",
-    "description": "SalesforceIQ's Chrome extension provides contextual information and productivity features inside Gmail, in order to seamlessly provide CRM access and enhance users' email workflow. Since the launch, we have delivered 10+ features in the Chrome extension in one year to become one of the highest engagement product. In this talk, we will cover the basics of a Chrome extension, deep-diving on the \"read receipts\" feature, and how we architected RelateIQ Chrome extension to enable rapid deployment and code-sharing. All these lessons can be transferred to startups launching a browser extension client.",
-    "speakers": [
-      21
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 122,
-    "title": "Multi-Language Multi-services in Google Cloud",
-    "description": "One of greatest benefit with multi-service architecture is being able to develop different platforms/languages. In this presentation I will show how to unite different languages - NodeJS, GoLang and Dart - in single application hosted in Google Cloud Platform.",
-    "speakers": [
-      22
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 123,
-    "title": "Develop and Design for Android Marshmallow",
-    "description": "The latest version of Android contains many significant changes from previous versions. Attend the Fireside Chats to hear a panel of Google Developer Experts discuss the most important changes, and the steps you should take to incorporate them into your Android apps.<br>This special event will include a lively discussion on Marshmallow's latest features and how to best take advantage of them. Also come ready with questions and suggestions of your own!<br>We have gathered a great collection of Google Developer Experts to answer your questions, including Said Tahsin Dane, Chiu-Ki Chan, Ryan Harter, Wiebe Elsinga, and Mike Wolfson.<br>If you would like to ask a question ahead of time, please use this G+ link: https://plus.google.com/+MichaelWolfson/posts/hdLh3npNUEg",
-    "speakers": [
-      23
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  },
-  {
-    "id": 124,
-    "title": "Grand Challenges of Hyperscale Hyperconvergence Big Data Cloud Autotomation Powered by Software-Defined-Infrastructure when Moore's Law Does Not Matter Anymore",
-    "description": "The enterprise is being consumerized, and the consumer is being enterprised. Moore's Law does not matter anymore, the future belongs to business virtualization powered by invisible service architecture, powered by hyperscale and hyperconvergence, and facilitated by vertical streaming and horizontal scaling and consolidation. Both buyers and sellers want instant results, and from paperwork to paperless to mindless is the ultimate goal for any seamless transaction. The sweetest sweet spot in innovation is automation. The most painful pain point for any business is the mismatch between supplies and demands instead of information asymmetry as before. The distinction between web-scale and enterprise-grade infrastructures has been diminishing, cloud computing and Big Data are being driven by each other, and there is no silver bullet one size fits all.",
-    "speakers": [
-      24
-    ],
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "video": ""
-  }
-]
+[{
+  "id": 1001,
+  "title": "Registration & morning Coffee",
+  "description": "Get your badge, coffee, enjoy talking with tech edicts around",
+  "language": "",
+  "complexity": "",
+  "presentation": "",
+  "video": ""
+}, {
+  "id": 1002,
+  "title": "Lunch",
+  "description": "Foooooooood!",
+  "language": "",
+  "complexity": "",
+  "presentation": "",
+  "video": ""
+}, {
+  "id": 1003,
+  "title": "Coffee break",
+  "description": "Coffeeeeeee!",
+  "language": "",
+  "complexity": "",
+  "presentation": "",
+  "video": ""
+}, {
+  "id": 1004,
+  "title": "Morning coffee",
+  "description": "Coffeeeeeee!",
+  "language": "",
+  "complexity": "",
+  "presentation": "",
+  "video": ""
+}, {
+  "id": 1005,
+  "title": "DevFest Istanbul 2015 Opening",
+  "description": "Official start of the conference. Greatings from the organizers, sponsors and partners.",
+  "speakers": [34, 15, 1],
+  "language": "EN/TR",
+  "complexity": "",
+  "presentation": "",
+  "video": ""
+}, {
+  "id": 1006,
+  "title": "Closing Keynote",
+  "description": "",
+  "language": "EN/TR",
+  "complexity": "",
+  "presentation": "",
+  "video": ""
+}, {
+  "id": 1007,
+  "title": "GDG Unconference",
+  "description": "What is unconference?<br/><br/>An unconference is a conference organized, structured and led by the people attending it. Instead of passive listening, all attendees and organizers are encouraged to become participants, with discussion leaders providing moderation and structure for attendees. Overall, it's a participant-driven meeting.<br/><br/>Agenda is expected to be about GDG, community, collaboration, best practises, etc. It is a GDG Gathering session.",
+  "speakers": [100],
+  "language": "EN/TR",
+  "complexity": "",
+  "presentation": "",
+  "video": ""
+}, {
+  "id": 101,
+  "title": "Material Design on Custom Views",
+  "description": "There are various widgets to create user interfaces in Android Framework. Using these widgets is a starting point but they are not enough to create awesome apps. Fortunately, alternative methods are here to rescue! I mean understanding and extending the View class.<br/><br/>In this presentation, I will give some Custom View examples. Some of them makes impossible things be possible and some of them increase performance.<br/><br/>I will also talk about how to apply Material Design in Custom Views with the support of older platform versions.",
+  "speakers": [1],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Mobile",
+    "Material Design"
+  ]
+}, {
+  "id": 102,
+  "title": "#PERFMATTERS for Android",
+  "description": "The slogan '#PERFMATTERS' by Colt McAnlis is one of the most important statements, which an Android developer should follow. A well performing application makes the difference between a nice looking application and one, which gets successful. You, as an Android developer, have the responsibility to delight your users, so they don't feel how much work your application has to burden to fulfill the user's needs. This session will show you some easy optimizations and how to avoid glitches in the application. A lot of developers would shout, that this is premature optimization. In contrary it is preventive. With a small amount of work while developing you can avoid a lot of pitfalls. You will hopefully have a better understanding of the underlying system afterwards. During the session some tools and frameworks will be presented for helping you to fulfill your mission.",
+  "speakers": [2],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Mobile",
+    "PERFMATTERS"
+  ]
+}, {
+  "id": 103,
+  "title": "JSF with PrimeFaces, from Ugly Duckling to a Beautiful Swan",
+  "description": "JSF has come a long way since its initial release and managed to catch up with modern web development model. Combined with the popular PrimeFaces framework, JSF unleashes its true potential.<br/><br/>This session takes you on a tour of modern component based java development with server rendering featuring rich set of components, responsive design, powerful Ajax APIs, a real-time push framework with websockets, a mobile web renderkit, the dialog framework, extensive client-side validation and attractive page layouts.",
+  "speakers": [3],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "JSF",
+    "Web",
+    "Web Sockets",
+    "NetBeans"
+  ]
+}, {
+  "id": 104,
+  "title": "Piracy on Android",
+  "description": "Building awesome Android apps is a really really hard work that takes tons of time and dedication and also money. The worst thing that can happen to developers is that their apps get pirated and the developers that worked so hard to create them do not get honored for their hard work.<br/><br/>This talk will show the problems that arise from pirated apps as well as which countermeasures you, as a developer, can take to make it as difficult as possible to pirate your apps.",
+  "speakers": [4],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Mobile",
+    "Privacy"
+  ]
+}, {
+  "id": 105,
+  "title": "Infinite Scalable Systems with Docker, Docker Swarm, Docker Machine",
+  "description": "In this session, I will mention about Containerization technology hsitory a bit and dive into Infinite Scalable Systems with Docker, Docker Swarm, and Docker Machine with a fully working demo.  There will be sweet docker commands and configurations to setup total scalable system in 10 minutes.",
+  "speakers": [5],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Cloud",
+    "Docker"
+  ]
+}, {
+  "id": 106,
+  "title": "Design Patterns with Angular 2",
+  "description": "The main aim of this session is to talk about the most useful design patterns and technical issues in Angular 2. This session can also content some of the new attitudes like reactive programming and etc.",
+  "speakers": [6],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Web",
+    "Angular",
+    "Angular 2"
+  ]
+}, {
+  "id": 107,
+  "title": "The revolution of Material Design",
+  "description": "With the coming of Material Design in Android, how to imagine an application has changed completely. By following a few rules you can create applications with the best user experience and satisfaction.<br/><br/>The term Visual Continuity leads us to think of applications with visual changes no longer immediate and sudden, but handled naturally as material things. A few head movements and animations focused to ensure visual continuity that every user wants.",
+  "speakers": [7],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Mobile",
+    "Material Design"
+  ]
+}, {
+  "id": 109,
+  "title": "Life of APK",
+  "description": "This talk aims to explain all process that is happening behind, from creation to display an Android application.",
+  "speakers": [9],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Mobile"
+  ]
+}, {
+  "id": 111,
+  "title": "Animation for Interfaces",
+  "description": "While digital screens reduce our senses to only visual and listening, we can improve users’ experience and understanding through animations. I thought about how the whole team can develop animations without the knowledge of motion design. Create design and branding patterns for mobile and web with basic knowledge and tools and go strait into development.",
+  "speakers": [11],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "UX",
+    "Mobile",
+    "Design",
+    "Animation"
+  ]
+}, {
+  "id": 108,
+  "title": "Secure payments over mixed communication media",
+  "description": "Web enabled systems are now an integral part of everything we interact with, from microelectronics to voice enabled hardware, from text messages and phone calls to email, and really we’re just limited by our imaginations as to what we can connect. As we explore vast new realms of communication over mixed digital media, we have to ask ourselves how we protect our critical data within potential unsecure environments. Going beyond that, how do we protect some of our more critical data, payment information, in this same realm.<br/><br/>As we look at a multitude of different environments, we’ll be exploring how to secure user identity and payment information through the communication channels, covering topics like:<br/>* Securing identity and payment data through voice commands or text.<br/>* Tokenization and encryption security.<br/>* Techniques for triggering secure transactions from communications media.<br/><br/>At the end of the session, we’ll have a stronger understanding of proper techniques for working with new communication media sources, and see how we can apply fundamental security precepts in potentially insecure environments.",
+  "speakers": [8],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Mobile",
+    "Security"
+  ]
+}, {
+  "id": 112,
+  "title": "Dart - a language for your next project!",
+  "description": "Dart is a language by Google which is object oriented with optional types. You can use Dart to build great apps for the client-side, server-side, command line or for mobile.<br/><br/>Come to listen to my story why I love Dart, why it makes me productive and how you can use it to build your next project!",
+  "speakers": [12],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Web",
+    "Dart"
+  ]
+}, {
+  "id": 113,
+  "title": "Optimizing Apps for Better Performance",
+  "description": "Performance matters to users, so it must matter to you. In this session, I will talk about how to identify and fix performance bottlenecks and using profiling tools.",
+  "speakers": [13],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Mobile",
+    "Performance",
+    "PERFMATTERS"
+  ]
+}, {
+  "id": 114,
+  "title": "Event Driven Programming for Android",
+  "description": " Event-Driven programming paradigm, still not widely used, where the flow of the company is determined by events such as user input, threads output or messages from components. An Event-Driven system can increase the modularity and testability of our application. In fact, the entire application is very easily decoupled, what offers a lot of benefits! Although there are a few libraries supporting event programming, Android does not natively provide us an architecture and the necessary components to implement this on a clean way. This talk will analyze the state of the art of Event-Driven programming in Android, analyze all its benefits and propose some architectures for its implementation.",
+  "speakers": [14],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Mobile",
+    "Architecture"
+  ]
+}, {
+  "id": 115,
+  "title": "Google WebRTC on Mobile",
+  "description": "WebRTC is a new milestone in the evolution of the web. This technology allows us to quickly create real-time communication applications. Altough its main target is web browsers, WebRTC is becoming a popular real time communication technology used on mobile. By using WebRTC you can develop your own peer-to-peer video chat in a short amount of time. Also, WebRTC is very flexible, you can make calls to another networks that using offer/answer model, for example SIP protocol. In this presentation you can gain in-depth insights about how to implement WebRTC on iOS and Android mobile devices for a native experience.",
+  "speakers": [15],
+  "language": "EN",
+  "complexity": "Intermediate",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Web",
+    "WebRTC"
+  ]
+}, {
+  "id": 116,
+  "title": " Developing, testing and writing better Java and non-Java applications with the NetBeans IDE/Business of Software 101",
+  "description": "2 sessions for the price of 1!<br/><br/>A step by step guide to all the features NetBeans offers both Java and non-Java developers to create,edit, test and ship code (30 mins)<br/><br/>Business of Software 101 (10 minute essential guide to the software industry in 2015 and how to make the most of your strengths in it)",
+  "speakers": [16],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Java",
+    "NetBeans"
+  ]
+}, {
+  "id": 117,
+  "title": "Killing game ideas at hyperspeed",
+  "description": "How to develop an idea into a game:<br/>-Know your environment<br/>-Stages and layers of games<br/>-Value of failing<br/>-Defining MVP<br/>-Prototypes<br/>-Usertesting<br/>-Fake/Soft Launches",
+  "speakers": [17],
+  "language": "TR",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Mobile",
+    "Game",
+    "Prototyping",
+    "Design"
+  ]
+}, {
+  "id": 118,
+  "title": "Releasing Your Unity Game: How to Turn it into a Product",
+  "description": "Okay, so you’ve made your game. Now what? Although it might seem you’ve completed 99% percent of your project, it’s the last 1% that takes the most of your time. Have you added analytics to your game? Have you integrated sharing through any social networks? What about in-app purchases?<br/><br/>In this talk, I will cover the bits and pieces required to turn your game into a product, which include adding analytics, social integrations, in-app purchasing, localisation, data persistence and remote & local notifications to your Unity Engine powered game.",
+  "speakers": [18],
+  "language": "TR",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Mobile",
+    "Game",
+    "Unity"
+  ]
+}, {
+  "id": 119,
+  "title": "Android Brillo and Daily Life UX",
+  "description": "In this presentation we will talk about daily use of IoT devices and the Android based operating system Brillo.<br/><br/>We are in the early stages in the creation of Internet of Things. And the examples I will provide just a glimpse into what is possible when you combine sensors, actuators, and networked intelligence to create more fun and easy lifestyle.",
+  "speakers": [19],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Mobile",
+    "IoT",
+    "UX"
+  ]
+}, {
+  "id": 120,
+  "title": "Introduction to Google Project Tango and Intel RealSense technologies and usages",
+  "description": "RealSense and Tango are projects which objective is to bring complete motion and space understanding to apps, by using specific cameras integrated into devices.<br/><br/>You'll discover what are the different SDKs and cameras, how to use these that are becoming available to consumers really soon, and see what amazing products and new usages other developers have already started to work on.",
+  "speakers": [20],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "RealSense",
+    "Project Tango"
+  ]
+}, {
+  "id": 121,
+  "title": "Deploying and managing container-based applications with OpenStack and Kubernetes",
+  "description": "Linux containers have recently taken the industry by storm, offering a lightweight, powerful, portable and upgradeable alternative to traditional app deployment on a host OS/VM.<br/><br/>Managing Docker containers on OpenStack VMs is possible today with Mirantis OpenStack, with the Murano Application Catalog radically simplifying the job of placing multiple application containers in an environment, installing apps in them from public resources such as Docker Hub, and deploying the environment on VMs for use. For managing containers at large scales, Mirantis and Google are now working jointly to enable Murano to configure and deploy Kubernetes — the Google-initiated open source project to build and refine cluster orchestration for containers on infrastructure. <br/><br/>In this presentation the core concepts of OpenStack, Docker and Kubernetes will be described, as well as demonstrated abilities to deploy containerized applications, managed by Kubernetes on above of OpenStack cloud.",
+  "speakers": [21],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Cloud",
+    "Kubernetes"
+  ]
+}, {
+  "id": 128,
+  "title": "Building REST API with Go Lang",
+  "description": "Go is very popular programming language nowadays. A lot of startup choose to use it cause of concurrency, easy deploy and other features. In this talk we will look out json in go, standard packages and 3rd party packages for web apps.",
+  "speakers": [28],
+  "language": "TR",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Web",
+    "Go"
+  ]
+}, {
+  "id": 122,
+  "title": "Surviving Life in the JavaScript Ecosystem",
+  "description": "After many years of Java, many people are now using JavaScript. The JavaScript ecosystem is volatile, the frameworks and libraries are changing all the time. In this session, you'll learn about some brand new and excellent solutions for surviving life in the JavaScript ecosystem.",
+  "speakers": [22],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Web",
+    "Java",
+    "JavaScript"
+  ]
+}, {
+  "id": 123,
+  "title": "TO BE ANNOUNCED",
+  "description": "",
+  "speakers": [23],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Web",
+    "Polymer",
+    "Service Workers"
+  ]
+}, {
+  "id": 124,
+  "title": "Libreoffice'e Katkı Süreci ve Deneyimlerimiz",
+  "description": "*Libreoffice için katkı süreci, projeye dahil olmak için gerekenler, sürüm takip sistemi, hata takip sistemi ve kod gözden geçirme sistemi gibi araçların kullanımı anlatılacaktır.<br/><br/>LibreOffice uno slotlarının nasıl yazıldığı ve araç çubuklarına nasıl eklendiği gösterilecektir.<br/><br/>LibreOffice test yazma aşamaları ve kullanılan test araçları ile LibreOffice için unit test, otomasyon testi ve manuel testlerinin yazılımı anlatılacaktır.<br/><br/>Konuşmacılar katkı verdikleri alanlarından ve bu süreçte nasıl deneyimler edindiklerinden bahsedeceklerdir.",
+  "speakers": [24, 25, 26, 27],
+  "language": "TR",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Open Source",
+    "LibreOffice"
+  ]
+}, {
+  "id": 129,
+  "title": "IBM Bluemix Workshop",
+  "description": "Uygulamalarınızı en kısa sürede Cloud ortamında yayınlayın ",
+  "speakers": [29],
+  "language": "TR",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Cloud",
+    "Bluemix"
+  ]
+}, {
+  "id": 130,
+  "title": "Docker Containers in IBM Bluemix",
+  "description": "Containerization is one of the most effective technologies which enable applications to be much more lightweight and portable, as well as enabling application developers to be much more agile. This session gives information about combining the advantages of containers and cloud.",
+  "speakers": [30],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Cloud",
+    "Bluemix"
+  ]
+}, {
+  "id": 131,
+  "title": "Working in an effective team",
+  "description": "Most of us know about agile practices such as Scrum or Kanban, we have heard about and/or practice continuous integration and maybe even continuous delivery. We dream of TDD, BDD, XP and other buzzwords. But how do you put these in practice? How do you get your team to be an effective team? How do you get those dreams to not turn out as nightmares?<br/><br/>That is what we were asking ourselves at AppFoundry while making our apps. How would we apply this on our native clients? How do you do these things on Android? And how do you manage your backends in conjunction with these frontend platforms?<br/><br/>In this talk we’ll tell you the story of our quest to become an effective team.",
+  "speakers": [31],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Effective Teams"
+  ]
+}, {
+  "id": 132,
+  "title": "UX Metrics - a teamwork",
+  "description": "Metrics, like in any other field, make any experience measurable and provide an objective discussion ground for teams making decisions. Yet development teams are often considered as the ones who are at the receiving end of these decisions. They are the most effective when considered shared outcome.<br/><br/>This talk with clarify and exemplify benefits of defining UX metrics in multidisciplinary teams.",
+  "speakers": [32],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "UX",
+    "Team"
+  ]
+}, {
+  "id": 133,
+  "title": "Android 101",
+  "description": "Android 101 size şunları öğretir :<br/><br/>-Android nedir? Android Studio nasıl kullanılır?<br/>-Gradle nedir?<br/>-Activity nedir? View nedir?<br/>-Resources dosyaları nelerdir?<br/>-Küçük, sevimli bir Android uygulaması nasıl yapılır?<br/>-ve bu Google Play Store da nasıl yayınlanır?",
+  "speakers": [33],
+  "language": "TR",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Android",
+    "Android Studio",
+    "Gradle",
+    "Workshop"
+  ]
+}, {
+  "id": 134,
+  "title": "Dart Codelab",
+  "description": "In this session you will explore how to write your first server-side Dart application. Come to this workshop to try and learn Dart, have fun and see how you can write awesome applications and be productive with it. Note: please don't forget to bring your laptop with downloaded Dart and some editor/IDE with Dart support. More info: https://www.dartlang.org/downloads/",
+  "speakers": [12],
+  "language": "EN",
+  "complexity": "",
+  "presentation": "",
+  "video": "",
+  "tags": [
+    "Dart",
+    "Workshop"
+  ]
+}]
