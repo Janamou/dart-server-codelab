@@ -540,6 +540,7 @@ Stop current server and run it again.
 * [Dartlang website](http://www.dartlang.org)
 * [Dart news](http://news.dartlang.org/)
 * [pubspec.yaml info](https://www.dartlang.org/tools/pub/pubspec.html)
+* [Project structure](https://www.dartlang.org/tools/pub/package-layout.html)
 * [Dart on server](https://www.dartlang.org/server/)
 * [All Dart libraries on pub](https://pub.dartlang.org)
 * [rpc library](https://pub.dartlang.org/packages/rpc)
